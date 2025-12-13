@@ -1,0 +1,19 @@
+MCU: Raytac MDBT50Q-1M
+
+USB Controller: Genesys Logic GL850G
+
+SD Card Controller: Genesys Logic GL823
+
+LiPo Battery Charger: TI BQ24075 (or BQ24074)
+
+Memory IC (if needed): Winbond W25Q32JV
+
+LED Controller: IS31FL3731
+
+CONNECTORS
+2 USB-C Ports:
+2 USB-A Ports: 
+1 MicroSD Slot: 
+JST Connector for LiPo:
+
+Current Limit Switch: TPS20xx Series
