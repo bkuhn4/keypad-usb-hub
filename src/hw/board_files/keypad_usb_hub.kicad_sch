@@ -2197,6 +2197,48 @@
 			)
 		)
 	)
+	(sheet
+		(at 188.722 109.728)
+		(size 38.354 25.146)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "63faa32d-2c04-481a-ac3c-d2ba9de55eb3")
+		(property "Sheetname" "USB Hub"
+			(at 188.722 109.0164 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "untitled.kicad_sch"
+			(at 188.722 135.4586 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "keypad_usb_hub"
+				(path "/62136966-d911-451f-9518-a7827b282fe3"
+					(page "2")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")

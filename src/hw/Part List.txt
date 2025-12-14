@@ -1,8 +1,8 @@
 MCU: Raytac MDBT50Q-1M
 
-USB Controller: Genesys Logic GL850G
+USB Controller: USB2514B/M2
 
-SD Card Controller: Genesys Logic GL823
+SD Card Controller: USB2240-AEZG-06
 
 LiPo Battery Charger: TI BQ24075 (or BQ24074)
 
