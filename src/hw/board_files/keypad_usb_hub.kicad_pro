@@ -415,6 +415,10 @@
     [
       "63faa32d-2c04-481a-ac3c-d2ba9de55eb3",
       "USB Hub"
+    ],
+    [
+      "80eb8bed-550f-4706-a833-00f95ea5010a",
+      "Microcontroller"
     ]
   ],
   "text_variables": {}

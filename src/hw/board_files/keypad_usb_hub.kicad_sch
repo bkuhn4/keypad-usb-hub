@@ -2222,7 +2222,7 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "untitled.kicad_sch"
+		(property "Sheetfile" "usb_hub.kicad_sch"
 			(at 188.722 135.4586 0)
 			(effects
 				(font
@@ -2235,6 +2235,48 @@
 			(project "keypad_usb_hub"
 				(path "/62136966-d911-451f-9518-a7827b282fe3"
 					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 188.976 145.034)
+		(size 38.354 18.034)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "80eb8bed-550f-4706-a833-00f95ea5010a")
+		(property "Sheetname" "Microcontroller"
+			(at 188.976 144.3224 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "microcontroller.kicad_sch"
+			(at 188.976 163.6526 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "keypad_usb_hub"
+				(path "/62136966-d911-451f-9518-a7827b282fe3"
+					(page "3")
 				)
 			)
 		)

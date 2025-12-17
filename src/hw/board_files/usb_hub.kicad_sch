@@ -2075,6 +2075,936 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Project_Library:USB2240-AEZG-06"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 7.62 -38.608 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "USB2240-AEZG-06"
+				(at 18.288 -41.148 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "Package_DFN_QFN:QFN-36-1EP_6x6mm_P0.5mm_EP4.1x4.1mm_ThermalVias"
+				(at 0 -50.546 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://ww1.microchip.com/downloads/en/DeviceDoc/00001979A.pdf"
+				(at 0 -52.832 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Desktop, Notebook PCs Interface 36-QFN (6x6)"
+				(at 0 -55.118 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "USB2240-AEZG-06"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "QFN36_6X6MC_MCH QFN36_6X6MC_MCH-M QFN36_6X6MC_MCH-L"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "USB2240-AEZG-06_0_1"
+				(pin unspecified line
+					(at -30.48 33.02 0)
+					(length 2.54)
+					(name "USB+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -30.48 30.48 0)
+					(length 2.54)
+					(name "USB-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -30.48 25.4 0)
+					(length 2.54)
+					(name "RESET_N"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -30.48 22.86 0)
+					(length 2.54)
+					(name "TEST"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "28"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -30.48 17.78 0)
+					(length 2.54)
+					(name "GPIO2/RXD/SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "27"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at -30.48 15.24 0)
+					(length 2.54)
+					(name "GPIO7/TXD/SCK/MS_SKT_SEL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "31"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -30.48 10.16 0)
+					(length 2.54)
+					(name "XTAL1(CLKIN)"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -30.48 7.62 0)
+					(length 2.54)
+					(name "XTAL2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "32"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -30.48 2.54 0)
+					(length 2.54)
+					(name "RBIAS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "35"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -5.08 41.91 270)
+					(length 2.54)
+					(name "VDD33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 41.91 270)
+					(length 2.54)
+					(name "VDD33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 41.91 270)
+					(length 2.54)
+					(name "VDD33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "22"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -39.37 90)
+					(length 2.54)
+					(name "EPAD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "37"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 5.08 41.91 270)
+					(length 2.54)
+					(name "VDDA33"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "36"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 30.48 33.02 180)
+					(length 2.54)
+					(name "GPIO1(LED)"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 30.48 30.48 180)
+					(length 2.54)
+					(name "GPIO10(CRD_PWR)"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "21"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 30.48 25.4 180)
+					(length 2.54)
+					(name "XD_D2/SD_D0/MS_D4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 30.48 22.86 180)
+					(length 2.54)
+					(name "XD_D3/SD_D1/MS_D5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 30.48 20.32 180)
+					(length 2.54)
+					(name "XD_D5/SD_D2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "25"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 30.48 17.78 180)
+					(length 2.54)
+					(name "XD_D6/SD_D3/MS_D3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "23"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 30.48 15.24 180)
+					(length 2.54)
+					(name "XD_D7/SD_D4/MS_D2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "20"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 30.48 12.7 180)
+					(length 2.54)
+					(name "XD_ALE/SD_D5/MS_D1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 30.48 10.16 180)
+					(length 2.54)
+					(name "XD_D0/SD_D6/MS_D7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 30.48 7.62 180)
+					(length 2.54)
+					(name "XD_D1/SD_D7/MS_D6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 30.48 2.54 180)
+					(length 2.54)
+					(name "XD_CLE/SD_CMD/MS_D0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 30.48 0 180)
+					(length 2.54)
+					(name "XD_NWP/SD_CLK/MS_BS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 30.48 -5.08 180)
+					(length 2.54)
+					(name "XD_D4/GPIO6(SD_WP)/MS_SCLK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "30"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 30.48 -7.62 180)
+					(length 2.54)
+					(name "GPIO15(SD_NCD)"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "26"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 30.48 -10.16 180)
+					(length 2.54)
+					(name "GPIO12(MS_INS)"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "24"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 30.48 -12.7 180)
+					(length 2.54)
+					(name "GPIO14(XD_NCD)"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "19"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 30.48 -15.24 180)
+					(length 2.54)
+					(name "XD_NWE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 30.48 -17.78 180)
+					(length 2.54)
+					(name "XD_NCE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "15"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 30.48 -20.32 180)
+					(length 2.54)
+					(name "XD_NRE"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "16"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 30.48 -22.86 180)
+					(length 2.54)
+					(name "XD_NB/R"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "17"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 30.48 -25.4 180)
+					(length 2.54)
+					(name "GPIO4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "29"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 30.48 -30.48 180)
+					(length 2.54)
+					(name "VDD18"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 30.48 -33.02 180)
+					(length 2.54)
+					(name "VDD18PLL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "34"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "USB2240-AEZG-06_1_1"
+				(rectangle
+					(start -27.94 39.37)
+					(end 27.94 -36.83)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(symbol
+		(lib_id "Project_Library:USB2240-AEZG-06")
+		(at 231.14 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "748f0df9-2b8b-43c6-8b99-cbf10e94a3ec")
+		(property "Reference" "U5"
+			(at 233.2833 130.81 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "USB2240-AEZG-06"
+			(at 233.2833 133.35 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_DFN_QFN:QFN-36-1EP_6x6mm_P0.5mm_EP4.1x4.1mm_ThermalVias"
+			(at 231.14 141.986 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ww1.microchip.com/downloads/en/DeviceDoc/00001979A.pdf"
+			(at 231.14 144.272 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Desktop, Notebook PCs Interface 36-QFN (6x6)"
+			(at 231.14 146.558 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "33"
+			(uuid "07715cb5-fe36-486f-817d-59c13feb0a2a")
+		)
+		(pin "12"
+			(uuid "396536b8-a274-4a8e-b4b3-9aeeb45e4926")
+		)
+		(pin "22"
+			(uuid "30a5afc6-e4b6-4400-9e29-8217d3e58d0e")
+		)
+		(pin "14"
+			(uuid "8cd899e1-65ac-408d-be6f-2488542ac29a")
+		)
+		(pin "20"
+			(uuid "bac575fa-bcab-4e76-a01e-db4eb68f638a")
+		)
+		(pin "16"
+			(uuid "40a7e7b4-c672-4d24-98c0-652900b59606")
+		)
+		(pin "31"
+			(uuid "f48aa474-15ab-4d9f-912f-c453af275845")
+		)
+		(pin "21"
+			(uuid "d6d0b7a3-0212-4180-a682-5d5d4944d0fb")
+		)
+		(pin "11"
+			(uuid "5bc54412-7986-4d83-993e-c73fa927f381")
+		)
+		(pin "13"
+			(uuid "393c84b3-1de4-4fd4-b8e5-952ef5fc19c6")
+		)
+		(pin "17"
+			(uuid "c64c0546-3568-483f-9b2f-903542397a76")
+		)
+		(pin "18"
+			(uuid "3163dc7b-36cb-405d-aea7-5efd1b652b9c")
+		)
+		(pin "36"
+			(uuid "802e4331-dca6-44dc-9cf5-43a9e89f3d12")
+		)
+		(pin "35"
+			(uuid "9e514025-f558-4056-ba00-45ee8bb16f4e")
+		)
+		(pin "27"
+			(uuid "dd39f9cb-351a-4e47-832c-de7a0d96ce2a")
+		)
+		(pin "29"
+			(uuid "aae6b7dc-5701-404c-a57d-acfe594c0543")
+		)
+		(pin "30"
+			(uuid "9cad438b-15a1-410d-9ee5-8043aacf7d5f")
+		)
+		(pin "26"
+			(uuid "a3e0235a-2e27-44b6-b3fe-007032d19974")
+		)
+		(pin "25"
+			(uuid "50f12884-cdc0-4a7f-a199-9fb47f1f166f")
+		)
+		(pin "23"
+			(uuid "d19b6a5f-7e1e-4af7-ba89-8fd18653d634")
+		)
+		(pin "28"
+			(uuid "7269ea8e-680f-40f2-8c8c-1a405d55eb50")
+		)
+		(pin "37"
+			(uuid "68efe628-8588-42b6-901f-2d97bdd02abb")
+		)
+		(pin "15"
+			(uuid "9dc354ca-ec66-476c-bc21-1289303e5dc7")
+		)
+		(pin "34"
+			(uuid "afd725d0-3c6f-4566-9383-6e5e4c41f941")
+		)
+		(pin "32"
+			(uuid "c57c17bf-6943-4461-b7b3-964381cb6312")
+		)
+		(pin "24"
+			(uuid "f5090ade-043c-48b8-927f-abcfd452d41f")
+		)
+		(pin "19"
+			(uuid "175c348b-1191-4249-a14e-9ca941316c63")
+		)
+		(pin "8"
+			(uuid "fa6ebfcd-93ce-4feb-bc24-df06ab7f53c5")
+		)
+		(pin "4"
+			(uuid "d0db6253-5e74-44fc-9357-75f467493a71")
+		)
+		(pin "3"
+			(uuid "a5318ae8-88c8-4498-a562-1d6f3ddf2b11")
+		)
+		(pin "2"
+			(uuid "78906a5f-a76a-4c09-b3e6-cdf16bc43711")
+		)
+		(pin "1"
+			(uuid "015738fa-3a28-452b-aec8-5349dbf76728")
+		)
+		(pin "5"
+			(uuid "26497e3b-72b1-4165-9adf-bfb4d843069e")
+		)
+		(pin "6"
+			(uuid "bcb46d3d-f1d0-4faa-852f-4f2d2759a6a6")
+		)
+		(pin "7"
+			(uuid "c5773e9b-5cb5-440c-beb2-2540f9105045")
+		)
+		(pin "9"
+			(uuid "18ad83b0-65a0-4f55-981b-499348fb7151")
+		)
+		(pin "10"
+			(uuid "e30e81dc-d6b6-4daa-848c-d34730a8d819")
+		)
+		(instances
+			(project ""
+				(path "/62136966-d911-451f-9518-a7827b282fe3/63faa32d-2c04-481a-ac3c-d2ba9de55eb3"
+					(reference "U5")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Connector:Micro_SD_Card")
@@ -2157,7 +3087,7 @@
 			(uuid "fc742341-f3de-433a-8483-3598d469ec1f")
 		)
 		(instances
-			(project ""
+			(project "keypad_usb_hub"
 				(path "/62136966-d911-451f-9518-a7827b282fe3/63faa32d-2c04-481a-ac3c-d2ba9de55eb3"
 					(reference "J3")
 					(unit 1)
@@ -2409,7 +3339,7 @@
 			(uuid "54686e37-1591-4d86-b8e7-6d886746818b")
 		)
 		(instances
-			(project ""
+			(project "keypad_usb_hub"
 				(path "/62136966-d911-451f-9518-a7827b282fe3/63faa32d-2c04-481a-ac3c-d2ba9de55eb3"
 					(reference "U3")
 					(unit 1)
