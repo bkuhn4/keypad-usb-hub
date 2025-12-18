@@ -2,7 +2,7 @@
 	(version 20241209)
 	(generator "kicad_symbol_editor")
 	(generator_version "9.0")
-	(symbol "USB2240-AEZG-06"
+	(symbol "USB2244-AEZG-06"
 		(pin_names
 			(offset 0.254)
 		)
@@ -10,15 +10,15 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at 7.62 -38.608 0)
+			(at 11.176 -33.02 0)
 			(effects
 				(font
 					(size 1.524 1.524)
 				)
 			)
 		)
-		(property "Value" "USB2240-AEZG-06"
-			(at 18.288 -41.148 0)
+		(property "Value" "USB2244-AEZG-06"
+			(at 21.844 -35.56 0)
 			(effects
 				(font
 					(size 1.524 1.524)
@@ -72,9 +72,9 @@
 				(hide yes)
 			)
 		)
-		(symbol "USB2240-AEZG-06_0_1"
-			(pin unspecified line
-				(at -30.48 33.02 0)
+		(symbol "USB2244-AEZG-06_0_1"
+			(pin bidirectional line
+				(at -30.48 25.4 0)
 				(length 2.54)
 				(name "USB+"
 					(effects
@@ -91,8 +91,8 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at -30.48 30.48 0)
+			(pin bidirectional line
+				(at -30.48 22.86 0)
 				(length 2.54)
 				(name "USB-"
 					(effects
@@ -109,8 +109,8 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at -30.48 25.4 0)
+			(pin input line
+				(at -30.48 17.78 0)
 				(length 2.54)
 				(name "RESET_N"
 					(effects
@@ -127,8 +127,8 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at -30.48 22.86 0)
+			(pin passive line
+				(at -30.48 15.24 0)
 				(length 2.54)
 				(name "TEST"
 					(effects
@@ -146,7 +146,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -30.48 17.78 0)
+				(at -30.48 10.16 0)
 				(length 2.54)
 				(name "GPIO2/RXD/SDA"
 					(effects
@@ -164,9 +164,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at -30.48 15.24 0)
+				(at -30.48 7.62 0)
 				(length 2.54)
-				(name "GPIO7/TXD/SCK/MS_SKT_SEL"
+				(name "TXD_SCK"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -181,8 +181,8 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at -30.48 10.16 0)
+			(pin passive line
+				(at -30.48 2.54 0)
 				(length 2.54)
 				(name "XTAL1(CLKIN)"
 					(effects
@@ -199,8 +199,8 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at -30.48 7.62 0)
+			(pin passive line
+				(at -30.48 0 0)
 				(length 2.54)
 				(name "XTAL2"
 					(effects
@@ -217,8 +217,8 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at -30.48 2.54 0)
+			(pin passive line
+				(at -30.48 -5.08 0)
 				(length 2.54)
 				(name "RBIAS"
 					(effects
@@ -236,7 +236,7 @@
 				)
 			)
 			(pin power_in line
-				(at -5.08 41.91 270)
+				(at -5.08 34.29 270)
 				(length 2.54)
 				(name "VDD33"
 					(effects
@@ -254,7 +254,7 @@
 				)
 			)
 			(pin power_in line
-				(at -2.54 41.91 270)
+				(at -2.54 34.29 270)
 				(length 2.54)
 				(name "VDD33"
 					(effects
@@ -272,7 +272,7 @@
 				)
 			)
 			(pin power_in line
-				(at 0 41.91 270)
+				(at 0 34.29 270)
 				(length 2.54)
 				(name "VDD33"
 					(effects
@@ -289,8 +289,8 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at 0 -39.37 90)
+			(pin power_in line
+				(at 0 -34.29 90)
 				(length 2.54)
 				(name "EPAD"
 					(effects
@@ -308,7 +308,7 @@
 				)
 			)
 			(pin power_in line
-				(at 5.08 41.91 270)
+				(at 5.08 34.29 270)
 				(length 2.54)
 				(name "VDDA33"
 					(effects
@@ -326,7 +326,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 30.48 33.02 180)
+				(at 30.48 25.4 180)
 				(length 2.54)
 				(name "GPIO1(LED)"
 					(effects
@@ -344,9 +344,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at 30.48 30.48 180)
+				(at 30.48 22.86 180)
 				(length 2.54)
-				(name "GPIO10(CRD_PWR)"
+				(name "CRD_PWR"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -362,9 +362,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at 30.48 25.4 180)
+				(at 30.48 17.78 180)
 				(length 2.54)
-				(name "XD_D2/SD_D0/MS_D4"
+				(name "SD_D0"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -380,9 +380,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at 30.48 22.86 180)
+				(at 30.48 15.24 180)
 				(length 2.54)
-				(name "XD_D3/SD_D1/MS_D5"
+				(name "SD_D1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -398,9 +398,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at 30.48 20.32 180)
+				(at 30.48 12.7 180)
 				(length 2.54)
-				(name "XD_D5/SD_D2"
+				(name "SD_D2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -416,9 +416,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at 30.48 17.78 180)
+				(at 30.48 10.16 180)
 				(length 2.54)
-				(name "XD_D6/SD_D3/MS_D3"
+				(name "SD_D3"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -434,9 +434,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at 30.48 15.24 180)
+				(at 30.48 7.62 180)
 				(length 2.54)
-				(name "XD_D7/SD_D4/MS_D2"
+				(name "SD_D4"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -452,9 +452,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at 30.48 12.7 180)
+				(at 30.48 5.08 180)
 				(length 2.54)
-				(name "XD_ALE/SD_D5/MS_D1"
+				(name "SD_D5"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -470,9 +470,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at 30.48 10.16 180)
+				(at 30.48 2.54 180)
 				(length 2.54)
-				(name "XD_D0/SD_D6/MS_D7"
+				(name "SD_D6"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -488,9 +488,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at 30.48 7.62 180)
+				(at 30.48 0 180)
 				(length 2.54)
-				(name "XD_D1/SD_D7/MS_D6"
+				(name "SD_D7"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -506,9 +506,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at 30.48 2.54 180)
+				(at 30.48 -5.08 180)
 				(length 2.54)
-				(name "XD_CLE/SD_CMD/MS_D0"
+				(name "SD_CMD"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -524,9 +524,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at 30.48 0 180)
+				(at 30.48 -7.62 180)
 				(length 2.54)
-				(name "XD_NWP/SD_CLK/MS_BS"
+				(name "SD_CLK"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -542,27 +542,9 @@
 				)
 			)
 			(pin bidirectional line
-				(at 30.48 -5.08 180)
+				(at 30.48 -15.24 180)
 				(length 2.54)
-				(name "XD_D4/GPIO6(SD_WP)/MS_SCLK"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "30"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 30.48 -7.62 180)
-				(length 2.54)
-				(name "GPIO15(SD_NCD)"
+				(name "SD_nCD"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -577,46 +559,11 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at 30.48 -10.16 180)
+			(pin passive line
+				(at 30.48 -20.32 180)
 				(length 2.54)
-				(name "GPIO12(MS_INS)"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "24"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin bidirectional line
-				(at 30.48 -12.7 180)
-				(length 2.54)
-				(name "GPIO14(XD_NCD)"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-				(number "19"
-					(effects
-						(font
-							(size 1.27 1.27)
-						)
-					)
-				)
-			)
-			(pin unspecified line
-				(at 30.48 -15.24 180)
-				(length 2.54)
-				(name "XD_NWE"
+				(hide yes)
+				(name "NC"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -631,10 +578,11 @@
 					)
 				)
 			)
-			(pin unspecified line
-				(at 30.48 -17.78 180)
+			(pin passive line
+				(at 30.48 -20.32 180)
 				(length 2.54)
-				(name "XD_NCE"
+				(hide yes)
+				(name "NC"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -649,10 +597,11 @@
 					)
 				)
 			)
-			(pin unspecified line
+			(pin passive line
 				(at 30.48 -20.32 180)
 				(length 2.54)
-				(name "XD_NRE"
+				(hide yes)
+				(name "NC"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -667,10 +616,11 @@
 					)
 				)
 			)
-			(pin bidirectional line
-				(at 30.48 -22.86 180)
+			(pin passive line
+				(at 30.48 -20.32 180)
 				(length 2.54)
-				(name "XD_NB/R"
+				(hide yes)
+				(name "NC"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -686,9 +636,47 @@
 				)
 			)
 			(pin bidirectional line
-				(at 30.48 -25.4 180)
+				(at 30.48 -20.32 180)
 				(length 2.54)
-				(name "GPIO4"
+				(hide yes)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "19"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin bidirectional line
+				(at 30.48 -20.32 180)
+				(length 2.54)
+				(name "NC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "24"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin passive line
+				(at 30.48 -20.32 180)
+				(length 2.54)
+				(hide yes)
+				(name "NC"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -704,7 +692,7 @@
 				)
 			)
 			(pin power_in line
-				(at 30.48 -30.48 180)
+				(at 30.48 -25.4 180)
 				(length 2.54)
 				(name "VDD18"
 					(effects
@@ -722,7 +710,7 @@
 				)
 			)
 			(pin power_in line
-				(at 30.48 -33.02 180)
+				(at 30.48 -27.94 180)
 				(length 2.54)
 				(name "VDD18PLL"
 					(effects
@@ -740,16 +728,34 @@
 				)
 			)
 		)
-		(symbol "USB2240-AEZG-06_1_1"
+		(symbol "USB2244-AEZG-06_1_1"
 			(rectangle
-				(start -27.94 39.37)
-				(end 27.94 -36.83)
+				(start -27.94 31.75)
+				(end 27.94 -31.75)
 				(stroke
 					(width 0.254)
 					(type solid)
 				)
 				(fill
 					(type background)
+				)
+			)
+			(pin bidirectional line
+				(at 30.48 -12.7 180)
+				(length 2.54)
+				(name "SD_WP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "30"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
 				)
 			)
 		)

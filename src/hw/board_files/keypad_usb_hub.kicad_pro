@@ -414,11 +414,19 @@
     ],
     [
       "63faa32d-2c04-481a-ac3c-d2ba9de55eb3",
-      "USB Hub"
+      "USB Hub Controller"
     ],
     [
       "80eb8bed-550f-4706-a833-00f95ea5010a",
       "Microcontroller"
+    ],
+    [
+      "81039386-55b5-46f3-a618-c26d2e744556",
+      "Receptacles"
+    ],
+    [
+      "fa01809e-f228-48ad-bd03-d96f7af03a9a",
+      "Power"
     ]
   ],
   "text_variables": {}
