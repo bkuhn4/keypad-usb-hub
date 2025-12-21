@@ -2,17 +2,17 @@
 
 [X] USB Controller: USB2514B/M2
 
-[ ] SD Card Controller: USB2244-AEZG-06
+[X] SD Card Controller: USB2244-AEZG-06
 
 [X] LiPo Battery Charger: TI BQ24074
 
-[ ] Memory IC (if needed): Winbond W25Q32JV
+[ ] Memory IC: Winbond W25Q32JV
 
-[ ] LED Controller: IS31FL3731
+[X] LED Controller: IS31FL3236A
 
 CONNECTORS
 2 USB-C Ports:
-2 USB-A Ports: 
+1 USB-A Ports: 
 1 MicroSD Slot: 
 JST Connector for LiPo:
 

@@ -12,8 +12,50 @@
 	)
 	(lib_symbols)
 	(sheet
-		(at 188.722 109.728)
-		(size 38.354 25.146)
+		(at 175.26 102.362)
+		(size 51.562 32.766)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2edcea5b-cb36-4170-89ba-0ae1b39f10ac")
+		(property "Sheetname" "LEDs"
+			(at 175.26 101.6504 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "leds.kicad_sch"
+			(at 175.26 135.7126 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "keypad_usb_hub"
+				(path "/62136966-d911-451f-9518-a7827b282fe3"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 33.782 40.894)
+		(size 38.354 50.292)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -28,7 +70,7 @@
 		)
 		(uuid "63faa32d-2c04-481a-ac3c-d2ba9de55eb3")
 		(property "Sheetname" "USB Hub Controller"
-			(at 188.722 109.0164 0)
+			(at 33.782 40.1824 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -37,7 +79,7 @@
 			)
 		)
 		(property "Sheetfile" "usb_hub.kicad_sch"
-			(at 188.722 135.4586 0)
+			(at 33.782 91.7706 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -54,7 +96,7 @@
 		)
 	)
 	(sheet
-		(at 188.976 145.034)
+		(at 98.552 52.07)
 		(size 38.354 18.034)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -69,8 +111,8 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "80eb8bed-550f-4706-a833-00f95ea5010a")
-		(property "Sheetname" "Microcontroller"
-			(at 188.976 144.3224 0)
+		(property "Sheetname" "Microcontroller and Power"
+			(at 98.552 51.3584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -78,8 +120,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "microcontroller.kicad_sch"
-			(at 188.976 163.6526 0)
+		(property "Sheetfile" "microcontroller_power.kicad_sch"
+			(at 98.552 70.6886 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -96,7 +138,7 @@
 		)
 	)
 	(sheet
-		(at 46.482 96.266)
+		(at 30.988 113.792)
 		(size 56.134 33.782)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -112,7 +154,7 @@
 		)
 		(uuid "81039386-55b5-46f3-a618-c26d2e744556")
 		(property "Sheetname" "Receptacles"
-			(at 46.482 95.5544 0)
+			(at 30.988 113.0804 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -121,7 +163,7 @@
 			)
 		)
 		(property "Sheetfile" "receptacles.kicad_sch"
-			(at 46.482 130.6326 0)
+			(at 30.988 148.1586 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -138,8 +180,8 @@
 		)
 	)
 	(sheet
-		(at 107.188 54.864)
-		(size 33.02 26.162)
+		(at 175.514 79.502)
+		(size 19.812 16.256)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -152,9 +194,9 @@
 		(fill
 			(color 0 0 0 0.0000)
 		)
-		(uuid "fa01809e-f228-48ad-bd03-d96f7af03a9a")
-		(property "Sheetname" "Power"
-			(at 107.188 54.1524 0)
+		(uuid "b53fd68d-6872-4d9d-ba2e-a2f821172191")
+		(property "Sheetname" "Keypad Switches"
+			(at 175.514 78.7904 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -162,8 +204,8 @@
 				(justify left bottom)
 			)
 		)
-		(property "Sheetfile" "power.kicad_sch"
-			(at 107.188 81.6106 0)
+		(property "Sheetfile" "keypad_switches.kicad_sch"
+			(at 175.514 96.3426 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -174,7 +216,7 @@
 		(instances
 			(project "keypad_usb_hub"
 				(path "/62136966-d911-451f-9518-a7827b282fe3"
-					(page "5")
+					(page "6")
 				)
 			)
 		)

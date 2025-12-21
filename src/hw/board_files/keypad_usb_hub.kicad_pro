@@ -418,15 +418,19 @@
     ],
     [
       "80eb8bed-550f-4706-a833-00f95ea5010a",
-      "Microcontroller"
+      "Microcontroller and Power"
     ],
     [
       "81039386-55b5-46f3-a618-c26d2e744556",
       "Receptacles"
     ],
     [
-      "fa01809e-f228-48ad-bd03-d96f7af03a9a",
-      "Power"
+      "2edcea5b-cb36-4170-89ba-0ae1b39f10ac",
+      "LEDs"
+    ],
+    [
+      "b53fd68d-6872-4d9d-ba2e-a2f821172191",
+      "Keypad Switches"
     ]
   ],
   "text_variables": {}
