@@ -45,6 +45,36 @@
 				(justify left top)
 			)
 		)
+		(pin "~{SDB}" output
+			(at 175.26 110.49 180)
+			(uuid "4384b151-c1ad-4297-9f89-168171822bc8")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDA" bidirectional
+			(at 175.26 113.03 180)
+			(uuid "fef4721b-6e21-4e09-bb03-cdf7f0bdb5ce")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SCL" input
+			(at 175.26 115.57 180)
+			(uuid "bb674467-46de-480e-b7a2-c8911c27c3fe")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "keypad_usb_hub"
 				(path "/62136966-d911-451f-9518-a7827b282fe3"
@@ -87,6 +117,116 @@
 				(justify left top)
 			)
 		)
+		(pin "USBA_PORT_D+" bidirectional
+			(at 72.136 59.69 0)
+			(uuid "4e0bf272-7c4c-4843-9114-52344519d6db")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VBUS_PORT4" output
+			(at 72.136 71.12 0)
+			(uuid "71e47182-911e-4b8c-9171-fe8115f5b6c1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USB_HUB_~{RESET}" input
+			(at 33.782 59.69 180)
+			(uuid "15119f6e-5657-4b28-88c4-ee0b4e41d377")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SD_USB_D+" bidirectional
+			(at 72.136 57.15 0)
+			(uuid "e86de96d-dfdf-48a5-9ed6-80ea56ef6841")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USBC_PORT_D+" bidirectional
+			(at 72.136 54.61 0)
+			(uuid "83aeeb07-b1b2-49d1-ac87-6cec6a5c2346")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MCU_USB_D+" bidirectional
+			(at 72.136 52.07 0)
+			(uuid "b3120e73-6fa2-44aa-b6c2-a1038724e7fe")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "MCU_USB_D-" bidirectional
+			(at 72.136 49.53 0)
+			(uuid "da6ad23b-0c9e-4794-b74e-8b69022d5905")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "VBUS_PORT3" output
+			(at 72.136 68.58 0)
+			(uuid "a769f63c-c695-4734-a0ea-652ee202e570")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USBA_PORT_D-" bidirectional
+			(at 72.136 62.23 0)
+			(uuid "8d14057f-a1c1-4259-ad7a-626fc69c5926")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "USBC_PORT_D-" bidirectional
+			(at 72.136 76.2 0)
+			(uuid "4a54ff94-4d3d-4b8f-a844-662d2f69cc94")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "SD_USB_D-" bidirectional
+			(at 72.136 78.74 0)
+			(uuid "00cd5ec7-9585-4b5c-864b-d04b56378bc1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "keypad_usb_hub"
 				(path "/62136966-d911-451f-9518-a7827b282fe3"
@@ -97,7 +237,7 @@
 	)
 	(sheet
 		(at 98.552 52.07)
-		(size 38.354 18.034)
+		(size 38.608 35.052)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -121,12 +261,82 @@
 			)
 		)
 		(property "Sheetfile" "microcontroller_power.kicad_sch"
-			(at 98.552 70.6886 0)
+			(at 98.552 87.7066 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "USB_HUB_~{RESET}" output
+			(at 98.552 54.61 180)
+			(uuid "929a8864-8868-44bd-88e8-4a6ce8980eb4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SCL" output
+			(at 98.552 59.69 180)
+			(uuid "7cbebf68-1592-491d-a55e-c026832dea33")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SD_~{RESET}" output
+			(at 98.552 62.23 180)
+			(uuid "58aff59a-fd44-40dd-b56e-7c32cad51d95")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SDA" bidirectional
+			(at 98.552 64.77 180)
+			(uuid "efc4eae1-eb81-450c-bde2-eca79ede5c09")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MCU_USB_D-" bidirectional
+			(at 98.552 67.31 180)
+			(uuid "04ffc4fa-7870-4b24-ac3f-9516f3b2acd6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "~{SDB}" output
+			(at 98.552 69.85 180)
+			(uuid "d878545b-599f-4a97-9e95-38dd30e4a933")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MCU_USB_D+" bidirectional
+			(at 98.552 72.39 180)
+			(uuid "d9bb9934-5603-47e7-9c46-e3da3d9e55d9")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -139,7 +349,7 @@
 	)
 	(sheet
 		(at 30.988 113.792)
-		(size 56.134 33.782)
+		(size 56.134 42.926)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -163,12 +373,102 @@
 			)
 		)
 		(property "Sheetfile" "receptacles.kicad_sch"
-			(at 30.988 148.1586 0)
+			(at 30.988 157.3026 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "VBUS_PORT4" bidirectional
+			(at 30.988 129.54 180)
+			(uuid "36accad0-a248-45a0-aa27-fff4e6314d34")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USBA_PORT_D+" bidirectional
+			(at 30.988 132.08 180)
+			(uuid "d993850f-75b8-4ebb-ad5d-594ad9fc574d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USBA_PORT_D-" bidirectional
+			(at 30.988 134.62 180)
+			(uuid "39c8dc56-601d-420a-bd83-6aa194cd6b10")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SD_USB_D+" bidirectional
+			(at 30.988 137.16 180)
+			(uuid "ae4166c3-ae8c-4e62-8413-ab65218712b7")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USBC_PORT_D+" bidirectional
+			(at 30.988 139.7 180)
+			(uuid "4b346748-db81-4e16-80db-f1f379584613")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "USBC_PORT_D-" bidirectional
+			(at 30.988 142.24 180)
+			(uuid "c5139e60-6e53-41f8-8286-16e7ee56e71c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SD_USB_D-" bidirectional
+			(at 30.988 144.78 180)
+			(uuid "5af31587-9c79-4e95-910a-5a923ffd10f4")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "VBUS_PORT3" bidirectional
+			(at 30.988 147.32 180)
+			(uuid "4698e569-4356-4dee-b7eb-c283cd26dc5c")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "SD_~{RESET}" input
+			(at 30.988 149.86 180)
+			(uuid "ae0de6a5-aff0-4199-afdd-e8d90bc2ca38")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -180,8 +480,8 @@
 		)
 	)
 	(sheet
-		(at 175.514 79.502)
-		(size 19.812 16.256)
+		(at 175.514 59.944)
+		(size 27.686 35.814)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -196,7 +496,7 @@
 		)
 		(uuid "b53fd68d-6872-4d9d-ba2e-a2f821172191")
 		(property "Sheetname" "Keypad Switches"
-			(at 175.514 78.7904 0)
+			(at 175.514 59.2324 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -211,6 +511,76 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "KEYP_COL2" input
+			(at 175.514 68.58 180)
+			(uuid "babe7411-15eb-43f5-b7bc-e85bd943ca0f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "KEYP_ROW3" output
+			(at 203.2 71.12 0)
+			(uuid "d69145ce-e21d-4f0c-acc7-8b20a2f12b14")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "KEYP_ROW4" output
+			(at 203.2 73.66 0)
+			(uuid "34a91a10-783f-4466-85c5-ee2ac8b3bbba")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "KEYP_COL3" input
+			(at 175.514 71.12 180)
+			(uuid "9baf38ea-93a6-4718-9575-4c34650407eb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "KEYP_COL1" input
+			(at 175.514 66.04 180)
+			(uuid "b5f89367-be33-4120-9f1c-70f5519e3483")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "KEYP_ROW1" output
+			(at 203.2 66.04 0)
+			(uuid "859d22f6-4123-4c9a-9e28-35038cbb9c9d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "KEYP_ROW2" output
+			(at 203.2 68.58 0)
+			(uuid "9bb240fc-40ad-4acc-966f-b45b5923eaf6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances

@@ -11,12 +11,11 @@
 		(company "B. Kuhn")
 	)
 	(lib_symbols
-		(symbol "Device:D"
+		(symbol "Diode:1N4148W"
 			(pin_numbers
 				(hide yes)
 			)
 			(pin_names
-				(offset 1.016)
 				(hide yes)
 			)
 			(exclude_from_sim no)
@@ -30,7 +29,7 @@
 					)
 				)
 			)
-			(property "Value" "D"
+			(property "Value" "1N4148W"
 				(at 0 -2.54 0)
 				(effects
 					(font
@@ -38,7 +37,16 @@
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Footprint" "Diode_SMD:D_SOD-123"
+				(at 0 -4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.vishay.com/docs/85748/1n4148w.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -47,16 +55,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Diode"
+			(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
 				(at 0 0 0)
 				(effects
 					(font
@@ -92,7 +91,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+			(property "ki_fp_filters" "D*SOD?123*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -101,7 +100,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "D_0_1"
+			(symbol "1N4148W_0_1"
 				(polyline
 					(pts
 						(xy -1.27 1.27) (xy -1.27 -1.27)
@@ -139,7 +138,7 @@
 					)
 				)
 			)
-			(symbol "D_1_1"
+			(symbol "1N4148W_1_1"
 				(pin passive line
 					(at -3.81 0 0)
 					(length 2.54)
@@ -540,6 +539,16 @@
 	)
 	(wire
 		(pts
+			(xy 182.88 128.27) (xy 184.15 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22ae6bde-c775-4c29-aa8d-6f2543e0d038")
+	)
+	(wire
+		(pts
 			(xy 173.99 97.79) (xy 175.26 97.79)
 		)
 		(stroke
@@ -757,16 +766,6 @@
 			(type default)
 		)
 		(uuid "809c8242-bad5-4004-9248-83a649d71237")
-	)
-	(wire
-		(pts
-			(xy 182.88 128.27) (xy 184.15 128.27)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "84e4d6d3-77b8-4104-b839-9961faf01f1f")
 	)
 	(wire
 		(pts
@@ -1286,42 +1285,33 @@
 		(uuid "ef07216a-d6f9-41ea-9a65-c688a4761b0d")
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 148.59 82.55 180)
+		(lib_id "Diode:1N4148W")
+		(at 179.07 82.55 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "063fd0a5-7a98-4109-b489-707399b9a555")
+		(uuid "05602edc-c324-4cba-8a48-9dd2d3ad296f")
 		(property "Reference" "D18"
-			(at 148.59 76.2 0)
+			(at 179.07 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "D"
-			(at 148.59 78.74 0)
+		(property "Value" "1N4148W"
+			(at 179.07 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 148.59 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 148.59 82.55 0)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 179.07 78.105 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1329,8 +1319,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Diode"
-			(at 148.59 82.55 0)
+		(property "Datasheet" "https://diotec.com/request/datasheet/1n4148w.pdf"
+			(at 179.07 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
+			(at 179.07 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1339,7 +1338,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 148.59 82.55 0)
+			(at 179.07 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1348,7 +1347,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 148.59 82.55 0)
+			(at 179.07 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1356,102 +1355,16 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "52367b49-8a54-4358-a753-033daca9d2b7")
-		)
 		(pin "1"
-			(uuid "6aba1181-4f84-4cb4-b664-9798f95c2d44")
+			(uuid "2c0af7f9-86d8-4122-84eb-43f95563b794")
+		)
+		(pin "2"
+			(uuid "976b7674-12b8-4485-811a-b9db6c1d5536")
 		)
 		(instances
 			(project "keypad_usb_hub"
 				(path "/62136966-d911-451f-9518-a7827b282fe3/b53fd68d-6872-4d9d-ba2e-a2f821172191"
 					(reference "D18")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 148.59 97.79 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "15c7e754-d152-414e-94b6-1e990119adf8")
-		(property "Reference" "D21"
-			(at 148.59 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "D"
-			(at 148.59 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 148.59 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 148.59 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode"
-			(at 148.59 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 148.59 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 148.59 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "80ec89bf-19ee-413a-a8b0-411b2e021d2a")
-		)
-		(pin "1"
-			(uuid "164b05b6-dcd6-4d8e-afe1-956f1a911d11")
-		)
-		(instances
-			(project "keypad_usb_hub"
-				(path "/62136966-d911-451f-9518-a7827b282fe3/b53fd68d-6872-4d9d-ba2e-a2f821172191"
-					(reference "D21")
 					(unit 1)
 				)
 			)
@@ -1467,7 +1380,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "17e5f624-04bd-4205-8bf2-d3d2192f2149")
-		(property "Reference" "SW2"
+		(property "Reference" "SW3"
 			(at 107.95 74.93 0)
 			(effects
 				(font
@@ -1483,7 +1396,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 107.95 77.47 0)
 			(effects
 				(font
@@ -1519,7 +1432,7 @@
 		(instances
 			(project "keypad_usb_hub"
 				(path "/62136966-d911-451f-9518-a7827b282fe3/b53fd68d-6872-4d9d-ba2e-a2f821172191"
-					(reference "SW2")
+					(reference "SW3")
 					(unit 1)
 				)
 			)
@@ -1535,7 +1448,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1a4d51fe-c693-4c9e-bbfc-f56ba3a02314")
-		(property "Reference" "SW5"
+		(property "Reference" "SW6"
 			(at 107.95 90.17 0)
 			(effects
 				(font
@@ -1551,7 +1464,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 107.95 92.71 0)
 			(effects
 				(font
@@ -1587,7 +1500,7 @@
 		(instances
 			(project "keypad_usb_hub"
 				(path "/62136966-d911-451f-9518-a7827b282fe3/b53fd68d-6872-4d9d-ba2e-a2f821172191"
-					(reference "SW5")
+					(reference "SW6")
 					(unit 1)
 				)
 			)
@@ -1603,7 +1516,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2ee27a7d-244d-4b02-8999-699b1d39c054")
-		(property "Reference" "SW3"
+		(property "Reference" "SW4"
 			(at 138.43 74.93 0)
 			(effects
 				(font
@@ -1619,7 +1532,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 138.43 77.47 0)
 			(effects
 				(font
@@ -1655,49 +1568,40 @@
 		(instances
 			(project "keypad_usb_hub"
 				(path "/62136966-d911-451f-9518-a7827b282fe3/b53fd68d-6872-4d9d-ba2e-a2f821172191"
-					(reference "SW3")
+					(reference "SW4")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 118.11 128.27 180)
+		(lib_id "Diode:1N4148W")
+		(at 179.07 97.79 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "357d8a0b-ec67-4084-ba04-b460b90f3edc")
-		(property "Reference" "D26"
-			(at 118.11 121.92 0)
+		(uuid "3c4e04c7-b5a3-400d-9ca3-df890d0ba4f9")
+		(property "Reference" "D21"
+			(at 179.07 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "D"
-			(at 118.11 124.46 0)
+		(property "Value" "1N4148W"
+			(at 179.07 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 118.11 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 118.11 128.27 0)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 179.07 93.345 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1705,8 +1609,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Diode"
-			(at 118.11 128.27 0)
+		(property "Datasheet" "https://diotec.com/request/datasheet/1n4148w.pdf"
+			(at 179.07 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
+			(at 179.07 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1715,7 +1628,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 118.11 128.27 0)
+			(at 179.07 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1724,7 +1637,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 118.11 128.27 0)
+			(at 179.07 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1732,58 +1645,49 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "3ff59531-ab41-4d3a-84c3-4ffd4dace15a")
-		)
 		(pin "1"
-			(uuid "50cc646f-eb54-419f-a6ec-3def76104ddd")
+			(uuid "74db3e0f-23c5-462d-920b-9f1ec2ccb5db")
+		)
+		(pin "2"
+			(uuid "a4dd7c58-bc9d-45ca-995c-11c685e03a39")
 		)
 		(instances
 			(project "keypad_usb_hub"
 				(path "/62136966-d911-451f-9518-a7827b282fe3/b53fd68d-6872-4d9d-ba2e-a2f821172191"
-					(reference "D26")
+					(reference "D21")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 148.59 113.03 180)
+		(lib_id "Diode:1N4148W")
+		(at 118.11 113.03 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "39b3b6a2-4cd2-491b-beab-4e466d5347d6")
-		(property "Reference" "D24"
-			(at 148.59 106.68 0)
+		(uuid "3ead94fa-8094-419c-bcb6-2f44f87bd2fd")
+		(property "Reference" "D22"
+			(at 118.11 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "D"
-			(at 148.59 109.22 0)
+		(property "Value" "1N4148W"
+			(at 118.11 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 148.59 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 148.59 113.03 0)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 118.11 108.585 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1791,8 +1695,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Diode"
-			(at 148.59 113.03 0)
+		(property "Datasheet" "https://diotec.com/request/datasheet/1n4148w.pdf"
+			(at 118.11 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
+			(at 118.11 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1801,7 +1714,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 148.59 113.03 0)
+			(at 118.11 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1810,7 +1723,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 148.59 113.03 0)
+			(at 118.11 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1818,16 +1731,16 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "5999c505-b7ba-45e6-a888-8ade4c6372c4")
-		)
 		(pin "1"
-			(uuid "0d6133ba-c948-4d56-b19c-6450cc542fa9")
+			(uuid "540a19d0-67df-475c-a5bc-a080431c1d26")
+		)
+		(pin "2"
+			(uuid "4370a744-4aeb-4d8c-a7c7-bb930b89b37a")
 		)
 		(instances
 			(project "keypad_usb_hub"
 				(path "/62136966-d911-451f-9518-a7827b282fe3/b53fd68d-6872-4d9d-ba2e-a2f821172191"
-					(reference "D24")
+					(reference "D22")
 					(unit 1)
 				)
 			)
@@ -1843,7 +1756,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4359f9e8-ae32-488b-a614-f18621a20ecd")
-		(property "Reference" "SW6"
+		(property "Reference" "SW7"
 			(at 138.43 90.17 0)
 			(effects
 				(font
@@ -1859,7 +1772,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 138.43 92.71 0)
 			(effects
 				(font
@@ -1895,7 +1808,7 @@
 		(instances
 			(project "keypad_usb_hub"
 				(path "/62136966-d911-451f-9518-a7827b282fe3/b53fd68d-6872-4d9d-ba2e-a2f821172191"
-					(reference "SW6")
+					(reference "SW7")
 					(unit 1)
 				)
 			)
@@ -1911,7 +1824,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "45bf970e-18f1-4e72-bb59-9cfe6aea3487")
-		(property "Reference" "SW7"
+		(property "Reference" "SW8"
 			(at 168.91 90.17 0)
 			(effects
 				(font
@@ -1927,7 +1840,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 168.91 92.71 0)
 			(effects
 				(font
@@ -1963,49 +1876,40 @@
 		(instances
 			(project "keypad_usb_hub"
 				(path "/62136966-d911-451f-9518-a7827b282fe3/b53fd68d-6872-4d9d-ba2e-a2f821172191"
-					(reference "SW7")
+					(reference "SW8")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 179.07 113.03 180)
+		(lib_id "Diode:1N4148W")
+		(at 118.11 97.79 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "4c80b34c-bfb4-4642-bb5f-a39731ae38ac")
-		(property "Reference" "D25"
-			(at 179.07 106.68 0)
+		(uuid "4f68d37c-45f7-4a32-97ef-4b8bcbc3cdd8")
+		(property "Reference" "D19"
+			(at 118.11 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "D"
-			(at 179.07 109.22 0)
+		(property "Value" "1N4148W"
+			(at 118.11 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 179.07 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 179.07 113.03 0)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 118.11 93.345 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2013,8 +1917,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Diode"
-			(at 179.07 113.03 0)
+		(property "Datasheet" "https://diotec.com/request/datasheet/1n4148w.pdf"
+			(at 118.11 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
+			(at 118.11 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2023,7 +1936,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 179.07 113.03 0)
+			(at 118.11 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2032,7 +1945,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 179.07 113.03 0)
+			(at 118.11 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2040,16 +1953,16 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "33a22637-c2da-44c5-b355-7c8399d824e1")
-		)
 		(pin "1"
-			(uuid "85a343b4-bdb8-4727-9bba-934349e196c0")
+			(uuid "42a7ab2f-be6a-48f0-a4c9-820773eb4f10")
+		)
+		(pin "2"
+			(uuid "60ee1a8f-f4d3-4ad3-90bb-77f32514e5bb")
 		)
 		(instances
 			(project "keypad_usb_hub"
 				(path "/62136966-d911-451f-9518-a7827b282fe3/b53fd68d-6872-4d9d-ba2e-a2f821172191"
-					(reference "D25")
+					(reference "D19")
 					(unit 1)
 				)
 			)
@@ -2065,7 +1978,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "51bc44a0-a2a7-4466-ae62-650e7b98e740")
-		(property "Reference" "SW9"
+		(property "Reference" "SW10"
 			(at 138.43 105.41 0)
 			(effects
 				(font
@@ -2081,7 +1994,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 138.43 107.95 0)
 			(effects
 				(font
@@ -2117,49 +2030,40 @@
 		(instances
 			(project "keypad_usb_hub"
 				(path "/62136966-d911-451f-9518-a7827b282fe3/b53fd68d-6872-4d9d-ba2e-a2f821172191"
-					(reference "SW9")
+					(reference "SW10")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 118.11 82.55 180)
+		(lib_id "Diode:1N4148W")
+		(at 148.59 128.27 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "5213572a-9fbc-4469-b5f9-f062c3f8bb00")
-		(property "Reference" "D17"
-			(at 118.11 76.2 0)
+		(uuid "51ca85d4-8ea8-48e5-b58c-86f170f50909")
+		(property "Reference" "D26"
+			(at 148.59 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "D"
-			(at 118.11 78.74 0)
+		(property "Value" "1N4148W"
+			(at 148.59 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 118.11 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 118.11 82.55 0)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 148.59 123.825 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2167,8 +2071,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Diode"
-			(at 118.11 82.55 0)
+		(property "Datasheet" "https://diotec.com/request/datasheet/1n4148w.pdf"
+			(at 148.59 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
+			(at 148.59 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2177,7 +2090,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 118.11 82.55 0)
+			(at 148.59 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2186,7 +2099,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 118.11 82.55 0)
+			(at 148.59 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2194,16 +2107,16 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "ed726040-fba6-4359-a451-fb2678ff9f06")
-		)
 		(pin "1"
-			(uuid "15560ee3-0d42-4f11-827d-683fee2939fa")
+			(uuid "f825474b-30e9-408b-8152-03b759238d43")
+		)
+		(pin "2"
+			(uuid "0e95b522-20a9-40e7-8ecc-4c24c5fcf2b7")
 		)
 		(instances
 			(project "keypad_usb_hub"
 				(path "/62136966-d911-451f-9518-a7827b282fe3/b53fd68d-6872-4d9d-ba2e-a2f821172191"
-					(reference "D17")
+					(reference "D26")
 					(unit 1)
 				)
 			)
@@ -2219,7 +2132,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "59d68241-ccf5-4797-9ac4-ef4fb5f5cc5e")
-		(property "Reference" "SW8"
+		(property "Reference" "SW9"
 			(at 107.95 105.41 0)
 			(effects
 				(font
@@ -2235,7 +2148,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 107.95 107.95 0)
 			(effects
 				(font
@@ -2271,49 +2184,40 @@
 		(instances
 			(project "keypad_usb_hub"
 				(path "/62136966-d911-451f-9518-a7827b282fe3/b53fd68d-6872-4d9d-ba2e-a2f821172191"
-					(reference "SW8")
+					(reference "SW9")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 118.11 97.79 180)
+		(lib_id "Diode:1N4148W")
+		(at 118.11 128.27 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "7cb0d01b-1660-42be-95db-9e7f76b1f797")
-		(property "Reference" "D20"
-			(at 118.11 91.44 0)
+		(uuid "5b46c1f4-0270-4038-9dcd-0ae0778ca8cf")
+		(property "Reference" "D25"
+			(at 118.11 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "D"
-			(at 118.11 93.98 0)
+		(property "Value" "1N4148W"
+			(at 118.11 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 118.11 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 118.11 97.79 0)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 118.11 123.825 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2321,8 +2225,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Diode"
-			(at 118.11 97.79 0)
+		(property "Datasheet" "https://diotec.com/request/datasheet/1n4148w.pdf"
+			(at 118.11 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
+			(at 118.11 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2331,7 +2244,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 118.11 97.79 0)
+			(at 118.11 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2340,7 +2253,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 118.11 97.79 0)
+			(at 118.11 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2348,58 +2261,49 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "b0fc5913-d9e5-411a-8aa2-62bed7a416d9")
-		)
 		(pin "1"
-			(uuid "b8ab226d-37cb-478f-a2cc-bb4c5820f926")
+			(uuid "cfc2dbb4-6213-4316-a59e-4a2611118f4b")
+		)
+		(pin "2"
+			(uuid "6c0959dd-9c48-434f-af90-26a9e790e55b")
 		)
 		(instances
 			(project "keypad_usb_hub"
 				(path "/62136966-d911-451f-9518-a7827b282fe3/b53fd68d-6872-4d9d-ba2e-a2f821172191"
-					(reference "D20")
+					(reference "D25")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 179.07 82.55 180)
+		(lib_id "Diode:1N4148W")
+		(at 148.59 113.03 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "af4d55ff-5294-4b21-913d-6b7696011bdb")
-		(property "Reference" "D19"
-			(at 179.07 76.2 0)
+		(uuid "640831fc-890b-431e-8c98-703e55ab6ba9")
+		(property "Reference" "D23"
+			(at 148.59 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "D"
-			(at 179.07 78.74 0)
+		(property "Value" "1N4148W"
+			(at 148.59 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 179.07 82.55 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 179.07 82.55 0)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 148.59 108.585 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2407,8 +2311,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Diode"
-			(at 179.07 82.55 0)
+		(property "Datasheet" "https://diotec.com/request/datasheet/1n4148w.pdf"
+			(at 148.59 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
+			(at 148.59 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2417,7 +2330,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 179.07 82.55 0)
+			(at 148.59 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2426,7 +2339,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 179.07 82.55 0)
+			(at 148.59 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2434,16 +2347,188 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "d359e012-38f7-4fec-90af-24b04290179f")
-		)
 		(pin "1"
-			(uuid "d1d8652b-4ef2-4b57-bae0-c4310f0cdfb6")
+			(uuid "b2c237cb-0ba6-4acf-8c3a-b20e3129e912")
+		)
+		(pin "2"
+			(uuid "675ed952-0f56-46c2-9bb8-4d64daa8c5d9")
 		)
 		(instances
 			(project "keypad_usb_hub"
 				(path "/62136966-d911-451f-9518-a7827b282fe3/b53fd68d-6872-4d9d-ba2e-a2f821172191"
-					(reference "D19")
+					(reference "D23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148W")
+		(at 179.07 128.27 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7d4be090-cf82-4bc7-8096-1fa93999893f")
+		(property "Reference" "D27"
+			(at 179.07 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 179.07 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 179.07 123.825 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://diotec.com/request/datasheet/1n4148w.pdf"
+			(at 179.07 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
+			(at 179.07 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 179.07 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 179.07 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a0b1acd0-1d62-4874-a273-298fdd98d9fb")
+		)
+		(pin "2"
+			(uuid "ccbb50fe-18c5-4ef5-a4ef-964860b9b7b4")
+		)
+		(instances
+			(project "keypad_usb_hub"
+				(path "/62136966-d911-451f-9518-a7827b282fe3/b53fd68d-6872-4d9d-ba2e-a2f821172191"
+					(reference "D27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148W")
+		(at 179.07 113.03 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a086ef1e-e3db-4fef-a070-cd9dd2caf59c")
+		(property "Reference" "D24"
+			(at 179.07 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 179.07 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 179.07 108.585 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://diotec.com/request/datasheet/1n4148w.pdf"
+			(at 179.07 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
+			(at 179.07 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 179.07 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 179.07 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9aec7950-770c-4728-bcb7-53668368075b")
+		)
+		(pin "2"
+			(uuid "6320c248-0e82-43fd-80d7-32c7a73602be")
+		)
+		(instances
+			(project "keypad_usb_hub"
+				(path "/62136966-d911-451f-9518-a7827b282fe3/b53fd68d-6872-4d9d-ba2e-a2f821172191"
+					(reference "D24")
 					(unit 1)
 				)
 			)
@@ -2459,7 +2544,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "af5cc82d-3ad6-4b2d-a2df-0202b7314d88")
-		(property "Reference" "SW13"
+		(property "Reference" "SW14"
 			(at 168.91 120.65 0)
 			(effects
 				(font
@@ -2475,7 +2560,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 168.91 123.19 0)
 			(effects
 				(font
@@ -2511,7 +2596,7 @@
 		(instances
 			(project "keypad_usb_hub"
 				(path "/62136966-d911-451f-9518-a7827b282fe3/b53fd68d-6872-4d9d-ba2e-a2f821172191"
-					(reference "SW13")
+					(reference "SW14")
 					(unit 1)
 				)
 			)
@@ -2527,7 +2612,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b67c5ded-1ce9-425d-98e7-b564e2c506a8")
-		(property "Reference" "SW10"
+		(property "Reference" "SW11"
 			(at 168.91 105.41 0)
 			(effects
 				(font
@@ -2543,7 +2628,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 168.91 107.95 0)
 			(effects
 				(font
@@ -2579,7 +2664,7 @@
 		(instances
 			(project "keypad_usb_hub"
 				(path "/62136966-d911-451f-9518-a7827b282fe3/b53fd68d-6872-4d9d-ba2e-a2f821172191"
-					(reference "SW10")
+					(reference "SW11")
 					(unit 1)
 				)
 			)
@@ -2595,7 +2680,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c383528a-36f6-40fe-8f6a-ea555569e04c")
-		(property "Reference" "SW4"
+		(property "Reference" "SW5"
 			(at 168.91 74.93 0)
 			(effects
 				(font
@@ -2611,7 +2696,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 168.91 77.47 0)
 			(effects
 				(font
@@ -2647,179 +2732,7 @@
 		(instances
 			(project "keypad_usb_hub"
 				(path "/62136966-d911-451f-9518-a7827b282fe3/b53fd68d-6872-4d9d-ba2e-a2f821172191"
-					(reference "SW4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 118.11 113.03 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c77ac4a1-1d94-4d08-aaf5-61b9b48ba25f")
-		(property "Reference" "D23"
-			(at 118.11 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "D"
-			(at 118.11 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 118.11 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 118.11 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode"
-			(at 118.11 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 118.11 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 118.11 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "abaa416e-5cee-4377-b123-c268b4e0ecb0")
-		)
-		(pin "1"
-			(uuid "b9e27249-3f98-4e1a-a0b6-51d285aac52e")
-		)
-		(instances
-			(project "keypad_usb_hub"
-				(path "/62136966-d911-451f-9518-a7827b282fe3/b53fd68d-6872-4d9d-ba2e-a2f821172191"
-					(reference "D23")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D")
-		(at 179.07 128.27 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d6614847-f1e7-47d5-b276-8a2ca6e2bcd8")
-		(property "Reference" "D28"
-			(at 179.07 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "D"
-			(at 179.07 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 179.07 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 179.07 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode"
-			(at 179.07 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 179.07 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 179.07 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "cc69839a-617d-4c67-874c-12b9d0ee4562")
-		)
-		(pin "1"
-			(uuid "3deb5adf-1912-44e2-b8f1-871579059453")
-		)
-		(instances
-			(project "keypad_usb_hub"
-				(path "/62136966-d911-451f-9518-a7827b282fe3/b53fd68d-6872-4d9d-ba2e-a2f821172191"
-					(reference "D28")
+					(reference "SW5")
 					(unit 1)
 				)
 			)
@@ -2835,7 +2748,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d9b6cd24-a3e2-4daf-950a-91743115148a")
-		(property "Reference" "SW12"
+		(property "Reference" "SW13"
 			(at 138.43 120.65 0)
 			(effects
 				(font
@@ -2851,7 +2764,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 138.43 123.19 0)
 			(effects
 				(font
@@ -2887,7 +2800,7 @@
 		(instances
 			(project "keypad_usb_hub"
 				(path "/62136966-d911-451f-9518-a7827b282fe3/b53fd68d-6872-4d9d-ba2e-a2f821172191"
-					(reference "SW12")
+					(reference "SW13")
 					(unit 1)
 				)
 			)
@@ -2903,7 +2816,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d9ce6a48-7211-48a8-b407-1c3d7ccd10a2")
-		(property "Reference" "SW11"
+		(property "Reference" "SW12"
 			(at 107.95 120.65 0)
 			(effects
 				(font
@@ -2919,7 +2832,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Button_Switch_Keyboard:SW_Cherry_MX_1.00u_PCB"
 			(at 107.95 123.19 0)
 			(effects
 				(font
@@ -2955,49 +2868,40 @@
 		(instances
 			(project "keypad_usb_hub"
 				(path "/62136966-d911-451f-9518-a7827b282fe3/b53fd68d-6872-4d9d-ba2e-a2f821172191"
-					(reference "SW11")
+					(reference "SW12")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 148.59 128.27 180)
+		(lib_id "Diode:1N4148W")
+		(at 148.59 82.55 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "db215c80-f3ff-4a34-8625-749d0b9540cb")
-		(property "Reference" "D27"
-			(at 148.59 121.92 0)
+		(uuid "de8058a9-85df-4fe2-8448-175867dd3795")
+		(property "Reference" "D17"
+			(at 148.59 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "D"
-			(at 148.59 124.46 0)
+		(property "Value" "1N4148W"
+			(at 148.59 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 148.59 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 148.59 128.27 0)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 148.59 78.105 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3005,8 +2909,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Diode"
-			(at 148.59 128.27 0)
+		(property "Datasheet" "https://diotec.com/request/datasheet/1n4148w.pdf"
+			(at 148.59 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
+			(at 148.59 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3015,7 +2928,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 148.59 128.27 0)
+			(at 148.59 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3024,7 +2937,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 148.59 128.27 0)
+			(at 148.59 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3032,58 +2945,49 @@
 				(hide yes)
 			)
 		)
-		(pin "2"
-			(uuid "b3f29c76-2ade-432d-a0d8-b2b255ab3f07")
-		)
 		(pin "1"
-			(uuid "493116ba-644d-48ea-bbe5-93c3d59d445f")
+			(uuid "caa693ea-1743-41d7-a629-3310a8a67b8b")
+		)
+		(pin "2"
+			(uuid "512e34f3-7140-43a5-a554-034ba631e4a3")
 		)
 		(instances
 			(project "keypad_usb_hub"
 				(path "/62136966-d911-451f-9518-a7827b282fe3/b53fd68d-6872-4d9d-ba2e-a2f821172191"
-					(reference "D27")
+					(reference "D17")
 					(unit 1)
 				)
 			)
 		)
 	)
 	(symbol
-		(lib_id "Device:D")
-		(at 179.07 97.79 180)
+		(lib_id "Diode:1N4148W")
+		(at 118.11 82.55 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "fa451c2f-a975-48ec-a059-00d16017b1bb")
-		(property "Reference" "D22"
-			(at 179.07 91.44 0)
+		(uuid "e6bcabf0-593e-4f3f-8fd0-0acf4ea1275c")
+		(property "Reference" "D16"
+			(at 118.11 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "D"
-			(at 179.07 93.98 0)
+		(property "Value" "1N4148W"
+			(at 118.11 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 179.07 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 179.07 97.79 0)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 118.11 78.105 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3091,8 +2995,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Diode"
-			(at 179.07 97.79 0)
+		(property "Datasheet" "https://diotec.com/request/datasheet/1n4148w.pdf"
+			(at 118.11 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
+			(at 118.11 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3101,7 +3014,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 179.07 97.79 0)
+			(at 118.11 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3110,7 +3023,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 179.07 97.79 0)
+			(at 118.11 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3118,16 +3031,102 @@
 				(hide yes)
 			)
 		)
+		(pin "1"
+			(uuid "9339b973-7e47-4d87-a7ac-67c74d2f0778")
+		)
 		(pin "2"
-			(uuid "88572537-192a-4ae7-b32d-ba7c855a22a2")
+			(uuid "180304b3-7bee-4b99-a838-fccaabe16531")
+		)
+		(instances
+			(project ""
+				(path "/62136966-d911-451f-9518-a7827b282fe3/b53fd68d-6872-4d9d-ba2e-a2f821172191"
+					(reference "D16")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:1N4148W")
+		(at 148.59 97.79 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ec988b36-a580-4e54-99fc-54e4c9bea224")
+		(property "Reference" "D20"
+			(at 148.59 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148W"
+			(at 148.59 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-123"
+			(at 148.59 93.345 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://diotec.com/request/datasheet/1n4148w.pdf"
+			(at 148.59 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "75V 0.15A Fast Switching Diode, SOD-123"
+			(at 148.59 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 148.59 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 148.59 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
 		)
 		(pin "1"
-			(uuid "1b83ad3f-7e9c-4ce1-b91a-099d0a000f7e")
+			(uuid "ff6f80b6-820f-4ee4-9766-923ed29e5022")
+		)
+		(pin "2"
+			(uuid "449b361f-68a5-42bc-9eca-37d2ac23e293")
 		)
 		(instances
 			(project "keypad_usb_hub"
 				(path "/62136966-d911-451f-9518-a7827b282fe3/b53fd68d-6872-4d9d-ba2e-a2f821172191"
-					(reference "D22")
+					(reference "D20")
 					(unit 1)
 				)
 			)

@@ -5683,7 +5683,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0515780d-d73b-4980-9c4f-0ad7f2e8affe")
-		(property "Reference" "C36"
+		(property "Reference" "C16"
 			(at 226.06 53.3462 0)
 			(effects
 				(font
@@ -5701,7 +5701,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 223.52 54.61 0)
 			(effects
 				(font
@@ -5737,7 +5737,7 @@
 		(instances
 			(project "keypad_usb_hub"
 				(path "/62136966-d911-451f-9518-a7827b282fe3/80eb8bed-550f-4706-a833-00f95ea5010a"
-					(reference "C36")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -5752,7 +5752,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "0b992e67-cd5a-4d18-a44c-a8813ee5c0db")
-		(property "Reference" "#PWR077"
+		(property "Reference" "#PWR045"
 			(at 238.76 134.62 0)
 			(effects
 				(font
@@ -5802,7 +5802,7 @@
 		(instances
 			(project "keypad_usb_hub"
 				(path "/62136966-d911-451f-9518-a7827b282fe3/80eb8bed-550f-4706-a833-00f95ea5010a"
-					(reference "#PWR077")
+					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -5817,7 +5817,7 @@
 		(on_board yes)
 		(dnp yes)
 		(uuid "0bb3b69e-9227-408c-a0f6-fdc7e92d147e")
-		(property "Reference" "R29"
+		(property "Reference" "R11"
 			(at 160.274 57.404 90)
 			(effects
 				(font
@@ -5833,7 +5833,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 163.83 58.42 0)
 			(effects
 				(font
@@ -5869,7 +5869,7 @@
 		(instances
 			(project "keypad_usb_hub"
 				(path "/62136966-d911-451f-9518-a7827b282fe3/80eb8bed-550f-4706-a833-00f95ea5010a"
-					(reference "R29")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -5885,7 +5885,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "212c7e59-7467-4f60-8e59-1ebe34ce7aeb")
-		(property "Reference" "U2"
+		(property "Reference" "U6"
 			(at 158.75 172.7199 0)
 			(effects
 				(font
@@ -5957,7 +5957,7 @@
 		(instances
 			(project ""
 				(path "/62136966-d911-451f-9518-a7827b282fe3/80eb8bed-550f-4706-a833-00f95ea5010a"
-					(reference "U2")
+					(reference "U6")
 					(unit 1)
 				)
 			)
@@ -5972,7 +5972,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "267c8ade-adab-44f5-ae44-8fc3a896406e")
-		(property "Reference" "#PWR069"
+		(property "Reference" "#PWR031"
 			(at 223.52 64.77 0)
 			(effects
 				(font
@@ -6022,7 +6022,7 @@
 		(instances
 			(project "keypad_usb_hub"
 				(path "/62136966-d911-451f-9518-a7827b282fe3/80eb8bed-550f-4706-a833-00f95ea5010a"
-					(reference "#PWR069")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -6038,7 +6038,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2ad64911-4b8c-4947-a461-163925aa2ccd")
-		(property "Reference" "R11"
+		(property "Reference" "R21"
 			(at 135.89 91.4399 0)
 			(effects
 				(font
@@ -6056,7 +6056,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 133.35 92.71 0)
 			(effects
 				(font
@@ -6092,7 +6092,7 @@
 		(instances
 			(project "keypad_usb_hub"
 				(path "/62136966-d911-451f-9518-a7827b282fe3/80eb8bed-550f-4706-a833-00f95ea5010a"
-					(reference "R11")
+					(reference "R21")
 					(unit 1)
 				)
 			)
@@ -6107,7 +6107,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2c91f585-7c1f-470c-ba0e-1eeb0b56d8e8")
-		(property "Reference" "#PWR059"
+		(property "Reference" "#PWR050"
 			(at 147.32 194.31 0)
 			(effects
 				(font
@@ -6157,7 +6157,7 @@
 		(instances
 			(project "keypad_usb_hub"
 				(path "/62136966-d911-451f-9518-a7827b282fe3/80eb8bed-550f-4706-a833-00f95ea5010a"
-					(reference "#PWR059")
+					(reference "#PWR050")
 					(unit 1)
 				)
 			)
@@ -6172,7 +6172,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2d87865f-1512-4d77-a21a-1fecfbf0b5d6")
-		(property "Reference" "#PWR076"
+		(property "Reference" "#PWR044"
 			(at 220.98 134.62 0)
 			(effects
 				(font
@@ -6222,7 +6222,7 @@
 		(instances
 			(project "keypad_usb_hub"
 				(path "/62136966-d911-451f-9518-a7827b282fe3/80eb8bed-550f-4706-a833-00f95ea5010a"
-					(reference "#PWR076")
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -6237,7 +6237,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "2fb911f1-6292-4271-addf-9bdca1e14e38")
-		(property "Reference" "#PWR055"
+		(property "Reference" "#PWR048"
 			(at 119.38 162.56 0)
 			(effects
 				(font
@@ -6287,7 +6287,7 @@
 		(instances
 			(project "keypad_usb_hub"
 				(path "/62136966-d911-451f-9518-a7827b282fe3/80eb8bed-550f-4706-a833-00f95ea5010a"
-					(reference "#PWR055")
+					(reference "#PWR048")
 					(unit 1)
 				)
 			)
@@ -6302,7 +6302,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "399527f2-7cbc-4ccd-8669-6a92605fd1c1")
-		(property "Reference" "#PWR064"
+		(property "Reference" "#PWR051"
 			(at 54.61 198.12 0)
 			(effects
 				(font
@@ -6352,7 +6352,7 @@
 		(instances
 			(project "keypad_usb_hub"
 				(path "/62136966-d911-451f-9518-a7827b282fe3/80eb8bed-550f-4706-a833-00f95ea5010a"
-					(reference "#PWR064")
+					(reference "#PWR051")
 					(unit 1)
 				)
 			)
@@ -6368,7 +6368,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "41416b64-b564-498c-b8a1-76c5e533754b")
-		(property "Reference" "#PWR065"
+		(property "Reference" "#PWR024"
 			(at 200.66 43.18 0)
 			(effects
 				(font
@@ -6418,7 +6418,7 @@
 		(instances
 			(project "keypad_usb_hub"
 				(path "/62136966-d911-451f-9518-a7827b282fe3/80eb8bed-550f-4706-a833-00f95ea5010a"
-					(reference "#PWR065")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -6434,7 +6434,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "42045001-4daa-4cc8-9b73-56517d8d86a4")
-		(property "Reference" "R34"
+		(property "Reference" "R17"
 			(at 229.87 69.85 90)
 			(effects
 				(font
@@ -6450,7 +6450,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 229.87 76.2 0)
 			(effects
 				(font
@@ -6486,7 +6486,7 @@
 		(instances
 			(project "keypad_usb_hub"
 				(path "/62136966-d911-451f-9518-a7827b282fe3/80eb8bed-550f-4706-a833-00f95ea5010a"
-					(reference "R34")
+					(reference "R17")
 					(unit 1)
 				)
 			)
@@ -6502,7 +6502,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4742fa71-6c07-46a1-97b7-2bc8a42ea32a")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR025"
 			(at 41.91 44.45 0)
 			(effects
 				(font
@@ -6552,7 +6552,7 @@
 		(instances
 			(project "keypad_usb_hub"
 				(path "/62136966-d911-451f-9518-a7827b282fe3/80eb8bed-550f-4706-a833-00f95ea5010a"
-					(reference "#PWR053")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -6568,7 +6568,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4c9ee95f-8073-4c90-b869-3f71a7f28d72")
-		(property "Reference" "C27"
+		(property "Reference" "C17"
 			(at 130.81 64.7762 0)
 			(effects
 				(font
@@ -6586,7 +6586,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 133.35 66.04 0)
 			(effects
 				(font
@@ -6622,7 +6622,7 @@
 		(instances
 			(project "keypad_usb_hub"
 				(path "/62136966-d911-451f-9518-a7827b282fe3/80eb8bed-550f-4706-a833-00f95ea5010a"
-					(reference "C27")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -6638,7 +6638,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4d50504f-dc28-4b2f-845e-2125708c58c7")
-		(property "Reference" "Y3"
+		(property "Reference" "Y2"
 			(at 115.57 68.5799 90)
 			(effects
 				(font
@@ -6656,7 +6656,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Crystal:Crystal_SMD_3215-2Pin_3.2x1.5mm"
 			(at 113.03 69.85 0)
 			(effects
 				(font
@@ -6665,7 +6665,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://mm.digikey.com/Volume0/opasdata/d220001/medias/docus/7329/SC-32S.pdf"
 			(at 113.03 69.85 0)
 			(effects
 				(font
@@ -6692,7 +6692,7 @@
 		(instances
 			(project "keypad_usb_hub"
 				(path "/62136966-d911-451f-9518-a7827b282fe3/80eb8bed-550f-4706-a833-00f95ea5010a"
-					(reference "Y3")
+					(reference "Y2")
 					(unit 1)
 				)
 			)
@@ -6707,7 +6707,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "58325e60-0981-463c-bd56-8fe6efcf5642")
-		(property "Reference" "R32"
+		(property "Reference" "R14"
 			(at 178.054 70.104 90)
 			(effects
 				(font
@@ -6723,7 +6723,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 181.61 71.12 0)
 			(effects
 				(font
@@ -6759,7 +6759,7 @@
 		(instances
 			(project "keypad_usb_hub"
 				(path "/62136966-d911-451f-9518-a7827b282fe3/80eb8bed-550f-4706-a833-00f95ea5010a"
-					(reference "R32")
+					(reference "R14")
 					(unit 1)
 				)
 			)
@@ -6775,7 +6775,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5b3b671f-a74e-4291-86d6-3da5930bf834")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR039"
 			(at 133.35 92.71 0)
 			(effects
 				(font
@@ -6825,7 +6825,7 @@
 		(instances
 			(project "keypad_usb_hub"
 				(path "/62136966-d911-451f-9518-a7827b282fe3/80eb8bed-550f-4706-a833-00f95ea5010a"
-					(reference "#PWR022")
+					(reference "#PWR039")
 					(unit 1)
 				)
 			)
@@ -6841,7 +6841,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "61013389-8954-4125-9fd3-61b908fb896f")
-		(property "Reference" "C29"
+		(property "Reference" "C14"
 			(at 53.34 44.4562 0)
 			(effects
 				(font
@@ -6859,7 +6859,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 50.8 45.72 0)
 			(effects
 				(font
@@ -6895,7 +6895,7 @@
 		(instances
 			(project "keypad_usb_hub"
 				(path "/62136966-d911-451f-9518-a7827b282fe3/80eb8bed-550f-4706-a833-00f95ea5010a"
-					(reference "C29")
+					(reference "C14")
 					(unit 1)
 				)
 			)
@@ -6911,7 +6911,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "62733b98-2283-483c-ac7d-6862a289dacc")
-		(property "Reference" "D4"
+		(property "Reference" "D1"
 			(at 238.76 54.9274 90)
 			(effects
 				(font
@@ -6929,7 +6929,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 234.95 54.61 0)
 			(effects
 				(font
@@ -6974,7 +6974,7 @@
 		(instances
 			(project "keypad_usb_hub"
 				(path "/62136966-d911-451f-9518-a7827b282fe3/80eb8bed-550f-4706-a833-00f95ea5010a"
-					(reference "D4")
+					(reference "D1")
 					(unit 1)
 				)
 			)
@@ -6990,7 +6990,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "679dbbc8-4d16-490a-9f02-a3ebd328c5a9")
-		(property "Reference" "#PWR019"
+		(property "Reference" "#PWR032"
 			(at 254 68.58 0)
 			(effects
 				(font
@@ -7040,7 +7040,7 @@
 		(instances
 			(project "keypad_usb_hub"
 				(path "/62136966-d911-451f-9518-a7827b282fe3/80eb8bed-550f-4706-a833-00f95ea5010a"
-					(reference "#PWR019")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)
@@ -7056,7 +7056,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6db47d75-8210-419d-983b-0ee7f2788605")
-		(property "Reference" "C28"
+		(property "Reference" "C18"
 			(at 130.81 72.3962 0)
 			(effects
 				(font
@@ -7074,7 +7074,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 133.35 73.66 0)
 			(effects
 				(font
@@ -7110,7 +7110,7 @@
 		(instances
 			(project "keypad_usb_hub"
 				(path "/62136966-d911-451f-9518-a7827b282fe3/80eb8bed-550f-4706-a833-00f95ea5010a"
-					(reference "C28")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -7196,7 +7196,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "71f1b816-71eb-482a-b8f6-e705eb67cb1a")
-		(property "Reference" "U9"
+		(property "Reference" "U5"
 			(at 220.98 106.68 0)
 			(effects
 				(font
@@ -7257,7 +7257,7 @@
 		(instances
 			(project "keypad_usb_hub"
 				(path "/62136966-d911-451f-9518-a7827b282fe3/80eb8bed-550f-4706-a833-00f95ea5010a"
-					(reference "U9")
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -7272,7 +7272,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "824f59de-d163-4213-a680-6748edcb4cce")
-		(property "Reference" "R35"
+		(property "Reference" "R18"
 			(at 160.274 77.724 90)
 			(effects
 				(font
@@ -7288,7 +7288,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 163.83 78.74 0)
 			(effects
 				(font
@@ -7324,7 +7324,7 @@
 		(instances
 			(project "keypad_usb_hub"
 				(path "/62136966-d911-451f-9518-a7827b282fe3/80eb8bed-550f-4706-a833-00f95ea5010a"
-					(reference "R35")
+					(reference "R18")
 					(unit 1)
 				)
 			)
@@ -7339,7 +7339,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "83d94c0f-2cbe-46de-8191-f17246c45ca5")
-		(property "Reference" "#PWR067"
+		(property "Reference" "#PWR028"
 			(at 193.04 54.61 0)
 			(effects
 				(font
@@ -7389,7 +7389,7 @@
 		(instances
 			(project "keypad_usb_hub"
 				(path "/62136966-d911-451f-9518-a7827b282fe3/80eb8bed-550f-4706-a833-00f95ea5010a"
-					(reference "#PWR067")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -7405,7 +7405,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "854743c7-70f5-48e9-bf9e-c872c035bd0f")
-		(property "Reference" "#PWR074"
+		(property "Reference" "#PWR042"
 			(at 238.76 116.84 0)
 			(effects
 				(font
@@ -7455,7 +7455,7 @@
 		(instances
 			(project "keypad_usb_hub"
 				(path "/62136966-d911-451f-9518-a7827b282fe3/80eb8bed-550f-4706-a833-00f95ea5010a"
-					(reference "#PWR074")
+					(reference "#PWR042")
 					(unit 1)
 				)
 			)
@@ -7552,7 +7552,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8eda5112-c80a-4804-a2f8-25e562afb67d")
-		(property "Reference" "#PWR050"
+		(property "Reference" "#PWR046"
 			(at 147.32 149.86 0)
 			(effects
 				(font
@@ -7602,7 +7602,7 @@
 		(instances
 			(project "keypad_usb_hub"
 				(path "/62136966-d911-451f-9518-a7827b282fe3/80eb8bed-550f-4706-a833-00f95ea5010a"
-					(reference "#PWR050")
+					(reference "#PWR046")
 					(unit 1)
 				)
 			)
@@ -7618,7 +7618,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "90aa13ff-d665-4fc0-a7d8-855ee637e10a")
-		(property "Reference" "C38"
+		(property "Reference" "C20"
 			(at 241.3 119.3862 0)
 			(effects
 				(font
@@ -7636,7 +7636,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 238.76 120.65 0)
 			(effects
 				(font
@@ -7672,7 +7672,7 @@
 		(instances
 			(project "keypad_usb_hub"
 				(path "/62136966-d911-451f-9518-a7827b282fe3/80eb8bed-550f-4706-a833-00f95ea5010a"
-					(reference "C38")
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -7688,7 +7688,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "90ca906f-9c2c-47f1-9c60-9837d348814c")
-		(property "Reference" "J7"
+		(property "Reference" "J2"
 			(at 273.05 64.7699 0)
 			(effects
 				(font
@@ -7697,7 +7697,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "JST??"
+		(property "Value" "JST S3B-PH-K-S"
 			(at 273.05 67.3099 0)
 			(effects
 				(font
@@ -7706,7 +7706,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_PH_S3B-PH-K_1x03_P2.00mm_Horizontal"
 			(at 270.51 66.04 0)
 			(effects
 				(font
@@ -7715,7 +7715,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.jst-mfg.com/product/pdf/eng/ePH.pdf"
 			(at 270.51 66.04 0)
 			(effects
 				(font
@@ -7745,7 +7745,7 @@
 		(instances
 			(project "keypad_usb_hub"
 				(path "/62136966-d911-451f-9518-a7827b282fe3/80eb8bed-550f-4706-a833-00f95ea5010a"
-					(reference "J7")
+					(reference "J2")
 					(unit 1)
 				)
 			)
@@ -7760,7 +7760,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "944ff149-e8c9-47cd-bf83-00ef7be7cb17")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR030"
 			(at 41.91 57.15 0)
 			(effects
 				(font
@@ -7810,7 +7810,7 @@
 		(instances
 			(project "keypad_usb_hub"
 				(path "/62136966-d911-451f-9518-a7827b282fe3/80eb8bed-550f-4706-a833-00f95ea5010a"
-					(reference "#PWR054")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -7826,7 +7826,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "97561d2c-331c-422b-ac77-a1e1b7ef871c")
-		(property "Reference" "#PWR034"
+		(property "Reference" "#PWR026"
 			(at 74.93 44.45 0)
 			(effects
 				(font
@@ -7876,7 +7876,7 @@
 		(instances
 			(project "keypad_usb_hub"
 				(path "/62136966-d911-451f-9518-a7827b282fe3/80eb8bed-550f-4706-a833-00f95ea5010a"
-					(reference "#PWR034")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -7891,7 +7891,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "97ebe3ec-25c3-4112-badd-8a5c32a9d00f")
-		(property "Reference" "#PWR075"
+		(property "Reference" "#PWR043"
 			(at 181.61 134.62 0)
 			(effects
 				(font
@@ -7941,7 +7941,7 @@
 		(instances
 			(project "keypad_usb_hub"
 				(path "/62136966-d911-451f-9518-a7827b282fe3/80eb8bed-550f-4706-a833-00f95ea5010a"
-					(reference "#PWR075")
+					(reference "#PWR043")
 					(unit 1)
 				)
 			)
@@ -8204,7 +8204,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "98bbb42b-ae1c-437c-956e-3cbacd10df97")
-		(property "Reference" "#PWR068"
+		(property "Reference" "#PWR029"
 			(at 217.17 52.07 0)
 			(effects
 				(font
@@ -8254,7 +8254,7 @@
 		(instances
 			(project "keypad_usb_hub"
 				(path "/62136966-d911-451f-9518-a7827b282fe3/80eb8bed-550f-4706-a833-00f95ea5010a"
-					(reference "#PWR068")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -8270,7 +8270,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9b5d443d-81b8-4e83-b4ad-46900144ec88")
-		(property "Reference" "#PWR066"
+		(property "Reference" "#PWR027"
 			(at 172.72 52.07 0)
 			(effects
 				(font
@@ -8320,7 +8320,7 @@
 		(instances
 			(project "keypad_usb_hub"
 				(path "/62136966-d911-451f-9518-a7827b282fe3/80eb8bed-550f-4706-a833-00f95ea5010a"
-					(reference "#PWR066")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -8336,7 +8336,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a2ef1e18-b7b8-4725-9b37-f23a579b01b7")
-		(property "Reference" "U5"
+		(property "Reference" "U3"
 			(at 202.8033 50.8 0)
 			(effects
 				(font
@@ -8436,7 +8436,7 @@
 		(instances
 			(project "keypad_usb_hub"
 				(path "/62136966-d911-451f-9518-a7827b282fe3/80eb8bed-550f-4706-a833-00f95ea5010a"
-					(reference "U5")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -8451,7 +8451,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "a7a030d6-c99f-4f0a-8051-5bdd91925a2a")
-		(property "Reference" "#PWR071"
+		(property "Reference" "#PWR036"
 			(at 154.94 87.63 0)
 			(effects
 				(font
@@ -8501,7 +8501,7 @@
 		(instances
 			(project "keypad_usb_hub"
 				(path "/62136966-d911-451f-9518-a7827b282fe3/80eb8bed-550f-4706-a833-00f95ea5010a"
-					(reference "#PWR071")
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -8516,7 +8516,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "aae1f512-e11d-4ccd-b0fc-0ae3d6fa9be0")
-		(property "Reference" "#PWR072"
+		(property "Reference" "#PWR038"
 			(at 200.66 92.71 0)
 			(effects
 				(font
@@ -8566,7 +8566,7 @@
 		(instances
 			(project "keypad_usb_hub"
 				(path "/62136966-d911-451f-9518-a7827b282fe3/80eb8bed-550f-4706-a833-00f95ea5010a"
-					(reference "#PWR072")
+					(reference "#PWR038")
 					(unit 1)
 				)
 			)
@@ -8582,7 +8582,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b0a01b21-c309-4f67-adf5-8a3add09ac7d")
-		(property "Reference" "#PWR073"
+		(property "Reference" "#PWR041"
 			(at 181.61 116.84 0)
 			(effects
 				(font
@@ -8632,7 +8632,7 @@
 		(instances
 			(project "keypad_usb_hub"
 				(path "/62136966-d911-451f-9518-a7827b282fe3/80eb8bed-550f-4706-a833-00f95ea5010a"
-					(reference "#PWR073")
+					(reference "#PWR041")
 					(unit 1)
 				)
 			)
@@ -8648,7 +8648,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b8d2d2cc-0392-4894-abdf-8ef5bfda8591")
-		(property "Reference" "C12"
+		(property "Reference" "C21"
 			(at 121.92 151.1362 0)
 			(effects
 				(font
@@ -8666,7 +8666,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 119.38 152.4 0)
 			(effects
 				(font
@@ -8702,7 +8702,7 @@
 		(instances
 			(project "keypad_usb_hub"
 				(path "/62136966-d911-451f-9518-a7827b282fe3/80eb8bed-550f-4706-a833-00f95ea5010a"
-					(reference "C12")
+					(reference "C21")
 					(unit 1)
 				)
 			)
@@ -8718,7 +8718,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bdff8a05-f8e5-4e09-8d04-438dbb25de09")
-		(property "Reference" "R10"
+		(property "Reference" "R20"
 			(at 19.05 78.7399 0)
 			(effects
 				(font
@@ -8736,7 +8736,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 16.51 80.01 0)
 			(effects
 				(font
@@ -8772,7 +8772,7 @@
 		(instances
 			(project "keypad_usb_hub"
 				(path "/62136966-d911-451f-9518-a7827b282fe3/80eb8bed-550f-4706-a833-00f95ea5010a"
-					(reference "R10")
+					(reference "R20")
 					(unit 1)
 				)
 			)
@@ -8787,7 +8787,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "be3896e6-4984-42aa-9993-dc2d67c1154d")
-		(property "Reference" "#PWR070"
+		(property "Reference" "#PWR035"
 			(at 262.89 78.74 0)
 			(effects
 				(font
@@ -8837,7 +8837,7 @@
 		(instances
 			(project "keypad_usb_hub"
 				(path "/62136966-d911-451f-9518-a7827b282fe3/80eb8bed-550f-4706-a833-00f95ea5010a"
-					(reference "#PWR070")
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)
@@ -8852,7 +8852,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "be5cdb04-6438-40b6-9f8c-943666897dca")
-		(property "Reference" "R31"
+		(property "Reference" "R13"
 			(at 178.054 67.564 90)
 			(effects
 				(font
@@ -8868,7 +8868,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 181.61 68.58 0)
 			(effects
 				(font
@@ -8904,7 +8904,7 @@
 		(instances
 			(project "keypad_usb_hub"
 				(path "/62136966-d911-451f-9518-a7827b282fe3/80eb8bed-550f-4706-a833-00f95ea5010a"
-					(reference "R31")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -8920,7 +8920,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bffb301e-d8af-4585-8987-fdb00dfe6acc")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR033"
 			(at 16.51 72.39 0)
 			(effects
 				(font
@@ -8970,7 +8970,7 @@
 		(instances
 			(project "keypad_usb_hub"
 				(path "/62136966-d911-451f-9518-a7827b282fe3/80eb8bed-550f-4706-a833-00f95ea5010a"
-					(reference "#PWR020")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -8986,7 +8986,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cb2ce296-40b5-4a3f-b91f-2ebb9770a66f")
-		(property "Reference" "R36"
+		(property "Reference" "R19"
 			(at 229.87 82.55 90)
 			(effects
 				(font
@@ -9002,7 +9002,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 229.87 78.74 0)
 			(effects
 				(font
@@ -9038,7 +9038,7 @@
 		(instances
 			(project "keypad_usb_hub"
 				(path "/62136966-d911-451f-9518-a7827b282fe3/80eb8bed-550f-4706-a833-00f95ea5010a"
-					(reference "R36")
+					(reference "R19")
 					(unit 1)
 				)
 			)
@@ -9054,7 +9054,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cb90a1d2-d637-4ab4-85ce-b3e1fcc9c168")
-		(property "Reference" "C31"
+		(property "Reference" "C15"
 			(at 62.23 44.4562 0)
 			(effects
 				(font
@@ -9072,7 +9072,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 59.69 45.72 0)
 			(effects
 				(font
@@ -9108,7 +9108,7 @@
 		(instances
 			(project "keypad_usb_hub"
 				(path "/62136966-d911-451f-9518-a7827b282fe3/80eb8bed-550f-4706-a833-00f95ea5010a"
-					(reference "C31")
+					(reference "C15")
 					(unit 1)
 				)
 			)
@@ -9124,7 +9124,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cdacf4f2-1ff3-4c5b-89e1-6a5fa9029da1")
-		(property "Reference" "D5"
+		(property "Reference" "D2"
 			(at 247.65 54.9274 90)
 			(effects
 				(font
@@ -9142,7 +9142,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
 			(at 243.84 54.61 0)
 			(effects
 				(font
@@ -9187,7 +9187,7 @@
 		(instances
 			(project "keypad_usb_hub"
 				(path "/62136966-d911-451f-9518-a7827b282fe3/80eb8bed-550f-4706-a833-00f95ea5010a"
-					(reference "D5")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -9203,7 +9203,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cde50cad-0904-4b8b-9a67-88ae6df82920")
-		(property "Reference" "C30"
+		(property "Reference" "C13"
 			(at 44.45 44.4435 0)
 			(effects
 				(font
@@ -9221,7 +9221,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 41.91 45.72 0)
 			(effects
 				(font
@@ -9257,7 +9257,7 @@
 		(instances
 			(project "keypad_usb_hub"
 				(path "/62136966-d911-451f-9518-a7827b282fe3/80eb8bed-550f-4706-a833-00f95ea5010a"
-					(reference "C30")
+					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -9272,7 +9272,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "d146fb00-428c-45d5-a7c9-b33b7ec29d53")
-		(property "Reference" "R33"
+		(property "Reference" "R16"
 			(at 160.274 75.184 90)
 			(effects
 				(font
@@ -9288,7 +9288,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 163.83 76.2 0)
 			(effects
 				(font
@@ -9324,7 +9324,7 @@
 		(instances
 			(project "keypad_usb_hub"
 				(path "/62136966-d911-451f-9518-a7827b282fe3/80eb8bed-550f-4706-a833-00f95ea5010a"
-					(reference "R33")
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -9340,7 +9340,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d96e9be7-e78f-45a7-9433-46841c628848")
-		(property "Reference" "C35"
+		(property "Reference" "C12"
 			(at 195.58 43.1862 0)
 			(effects
 				(font
@@ -9358,7 +9358,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
 			(at 193.04 44.45 0)
 			(effects
 				(font
@@ -9394,7 +9394,7 @@
 		(instances
 			(project "keypad_usb_hub"
 				(path "/62136966-d911-451f-9518-a7827b282fe3/80eb8bed-550f-4706-a833-00f95ea5010a"
-					(reference "C35")
+					(reference "C12")
 					(unit 1)
 				)
 			)
@@ -9409,7 +9409,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "ddef75af-24db-4a61-8be9-7217d1177b6c")
-		(property "Reference" "#PWR018"
+		(property "Reference" "#PWR037"
 			(at 16.51 90.17 0)
 			(effects
 				(font
@@ -9459,7 +9459,7 @@
 		(instances
 			(project "keypad_usb_hub"
 				(path "/62136966-d911-451f-9518-a7827b282fe3/80eb8bed-550f-4706-a833-00f95ea5010a"
-					(reference "#PWR018")
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -9474,7 +9474,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e5bbf34f-75cd-4a62-9185-50ee6425f944")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR040"
 			(at 133.35 118.11 0)
 			(effects
 				(font
@@ -9524,7 +9524,7 @@
 		(instances
 			(project "keypad_usb_hub"
 				(path "/62136966-d911-451f-9518-a7827b282fe3/80eb8bed-550f-4706-a833-00f95ea5010a"
-					(reference "#PWR021")
+					(reference "#PWR040")
 					(unit 1)
 				)
 			)
@@ -9540,7 +9540,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ef2b3e7a-1d7d-4bf0-b9e3-68e9f69aa6f9")
-		(property "Reference" "R9"
+		(property "Reference" "R15"
 			(at 19.05 71.1199 0)
 			(effects
 				(font
@@ -9558,7 +9558,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 16.51 72.39 0)
 			(effects
 				(font
@@ -9594,7 +9594,7 @@
 		(instances
 			(project ""
 				(path "/62136966-d911-451f-9518-a7827b282fe3/80eb8bed-550f-4706-a833-00f95ea5010a"
-					(reference "R9")
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -9609,7 +9609,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f0f40ab1-237b-4d8c-99be-7a5d772e3acc")
-		(property "Reference" "R30"
+		(property "Reference" "R12"
 			(at 160.274 65.024 90)
 			(effects
 				(font
@@ -9625,7 +9625,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 163.83 66.04 0)
 			(effects
 				(font
@@ -9661,7 +9661,7 @@
 		(instances
 			(project "keypad_usb_hub"
 				(path "/62136966-d911-451f-9518-a7827b282fe3/80eb8bed-550f-4706-a833-00f95ea5010a"
-					(reference "R30")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -9676,7 +9676,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f2142dca-d64d-44ab-ad92-0f8c7d1063c9")
-		(property "Reference" "#PWR052"
+		(property "Reference" "#PWR034"
 			(at 139.7 77.47 0)
 			(effects
 				(font
@@ -9726,7 +9726,7 @@
 		(instances
 			(project "keypad_usb_hub"
 				(path "/62136966-d911-451f-9518-a7827b282fe3/80eb8bed-550f-4706-a833-00f95ea5010a"
-					(reference "#PWR052")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -9741,7 +9741,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f2671026-c162-44e5-b0dd-94ca10a4d5c8")
-		(property "Reference" "#PWR063"
+		(property "Reference" "#PWR047"
 			(at 72.39 157.48 0)
 			(effects
 				(font
@@ -9791,7 +9791,7 @@
 		(instances
 			(project "keypad_usb_hub"
 				(path "/62136966-d911-451f-9518-a7827b282fe3/80eb8bed-550f-4706-a833-00f95ea5010a"
-					(reference "#PWR063")
+					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -9807,7 +9807,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f2ea3083-e795-45d3-b9be-fcc8f45dda6e")
-		(property "Reference" "#PWR062"
+		(property "Reference" "#PWR049"
 			(at 54.61 172.72 0)
 			(effects
 				(font
@@ -9857,7 +9857,7 @@
 		(instances
 			(project "keypad_usb_hub"
 				(path "/62136966-d911-451f-9518-a7827b282fe3/80eb8bed-550f-4706-a833-00f95ea5010a"
-					(reference "#PWR062")
+					(reference "#PWR049")
 					(unit 1)
 				)
 			)
@@ -9873,7 +9873,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f9a6369a-64ba-4880-90b9-45a5a729dc08")
-		(property "Reference" "SW15"
+		(property "Reference" "SW2"
 			(at 196.85 107.95 0)
 			(effects
 				(font
@@ -9928,7 +9928,7 @@
 		(instances
 			(project "keypad_usb_hub"
 				(path "/62136966-d911-451f-9518-a7827b282fe3/80eb8bed-550f-4706-a833-00f95ea5010a"
-					(reference "SW15")
+					(reference "SW2")
 					(unit 1)
 				)
 			)
@@ -9944,7 +9944,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fa0d1966-bebc-42e2-930a-7c617692e71c")
-		(property "Reference" "R14"
+		(property "Reference" "R22"
 			(at 130.81 151.1299 0)
 			(effects
 				(font
@@ -9962,7 +9962,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 128.27 152.4 0)
 			(effects
 				(font
@@ -9998,7 +9998,7 @@
 		(instances
 			(project "keypad_usb_hub"
 				(path "/62136966-d911-451f-9518-a7827b282fe3/80eb8bed-550f-4706-a833-00f95ea5010a"
-					(reference "R14")
+					(reference "R22")
 					(unit 1)
 				)
 			)
@@ -10014,7 +10014,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fc1c058c-be8b-4a3b-bdc2-edd3e3ab3543")
-		(property "Reference" "C37"
+		(property "Reference" "C19"
 			(at 184.15 119.3862 0)
 			(effects
 				(font
@@ -10032,7 +10032,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 181.61 120.65 0)
 			(effects
 				(font
@@ -10068,7 +10068,7 @@
 		(instances
 			(project "keypad_usb_hub"
 				(path "/62136966-d911-451f-9518-a7827b282fe3/80eb8bed-550f-4706-a833-00f95ea5010a"
-					(reference "C37")
+					(reference "C19")
 					(unit 1)
 				)
 			)

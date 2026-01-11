@@ -1,0 +1,204 @@
+(footprint "RGB_LED_6028_Reverse_Mount"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "bfe4bf2c-e0c2-488d-82ff-cda36972cabb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.125)
+			)
+		)
+	)
+	(property "Value" "RGB_LED_6028_Reverse_Mount"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "14a9ead9-3215-4024-b492-0e97b3ed84c4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "40721740-9c98-4078-8ccc-59a91bbe6a52")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "6028 RGB Common Anode 20mA Reverse Mount"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fdcc0497-3765-4abf-b8b3-776ea4493ced")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_poly
+		(pts
+			(xy 5.25 -2.3) (xy 4.55 -2.3) (xy 4.55 -3)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "a9911bde-7159-46e6-bc9c-95e2a13a7727")
+	)
+	(fp_line
+		(start 0.849999 0.449999)
+		(end 0.85 -2.05)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "f6732088-03af-443f-8902-de6395b78650")
+	)
+	(fp_line
+		(start 1.099999 0.699999)
+		(end 3.999999 0.7)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "df776b2d-2a20-457f-b080-95152a0789ba")
+	)
+	(fp_line
+		(start 1.1 -2.3)
+		(end 4 -2.299999)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "bd1950ae-ac22-4282-9761-ba08e429dd74")
+	)
+	(fp_line
+		(start 4.249999 0.45)
+		(end 4.25 -2.049999)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "c61191a6-3460-4204-94a8-7b00431d8441")
+	)
+	(fp_arc
+		(start 0.849999 -2.050001)
+		(mid 0.923223 -2.226777)
+		(end 1.1 -2.3)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "48c78754-73e0-4550-92f4-e1a3d4fdd4a0")
+	)
+	(fp_arc
+		(start 1.099998 0.7)
+		(mid 0.923222 0.626776)
+		(end 0.849999 0.449999)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "8d104079-9a31-4fda-8356-8a0cd6858d50")
+	)
+	(fp_arc
+		(start 4.000001 -2.3)
+		(mid 4.176777 -2.226776)
+		(end 4.25 -2.049999)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "58976c30-687c-49f9-825e-176881de22fc")
+	)
+	(fp_arc
+		(start 4.25 0.450001)
+		(mid 4.176776 0.626777)
+		(end 3.999999 0.7)
+		(stroke
+			(width 0.01)
+			(type solid)
+		)
+		(layer "Edge.Cuts")
+		(uuid "9dc3345b-60ab-482c-96ff-d453b72e9ccd")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "5659bb92-fad9-4927-a9d9-6f523958667a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd trapezoid
+		(at 0 0)
+		(size 1.3 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "6d046f8a-86d5-4d23-8e94-150cc8a5d05c")
+	)
+	(pad "2" smd trapezoid
+		(at 0 -1.6)
+		(size 1.3 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "82ef4025-9fa0-4d2f-b5bd-cb9549660d8a")
+	)
+	(pad "3" smd trapezoid
+		(at 5.1 0)
+		(size 1.3 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "a31958ec-a500-49b9-b856-baad1ee517a7")
+	)
+	(pad "4" smd custom
+		(at 5.35 -1.6)
+		(size 0.8 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(thermal_bridge_angle 90)
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 0 0.4) (xy -0.9 0.4) (xy -0.9 -0.4) (xy 0 -0.4)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "5e7816d9-0044-43e4-b43b-d4e2751b70b7")
+	)
+	(embedded_fonts no)
+)
