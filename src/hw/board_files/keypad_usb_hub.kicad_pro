@@ -431,7 +431,7 @@
       "pin_not_connected": "error",
       "pin_not_driven": "error",
       "pin_to_pin": "warning",
-      "power_pin_not_driven": "error",
+      "power_pin_not_driven": "warning",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
       "similar_labels": "warning",
@@ -631,7 +631,7 @@
     ],
     [
       "b53fd68d-6872-4d9d-ba2e-a2f821172191",
-      "Keypad Switches"
+      "Switches and Display"
     ]
   ],
   "text_variables": {}

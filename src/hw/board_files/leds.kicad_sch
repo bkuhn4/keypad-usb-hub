@@ -2131,6 +2131,12 @@
 		(uuid "a1feb42f-0970-4f99-bd11-471866fb3c3f")
 	)
 	(junction
+		(at 256.54 60.96)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ac76576e-b5fe-4f07-83a9-24849ac0e5fa")
+	)
+	(junction
 		(at 226.06 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2141,6 +2147,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c37d72a9-d770-4571-827f-fe280072cc75")
+	)
+	(junction
+		(at 256.54 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dda5e353-8938-4622-b03f-f6d3a0367473")
 	)
 	(junction
 		(at 53.34 67.31)
@@ -2310,7 +2322,7 @@
 	)
 	(wire
 		(pts
-			(xy 256.54 41.91) (xy 256.54 124.46)
+			(xy 256.54 41.91) (xy 256.54 60.96)
 		)
 		(stroke
 			(width 0)
@@ -2347,6 +2359,16 @@
 			(type default)
 		)
 		(uuid "3f5692f9-de71-45bd-9a3c-f4af95aafa96")
+	)
+	(wire
+		(pts
+			(xy 256.54 93.98) (xy 256.54 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "426d6bf9-3a4d-4bf6-8596-b757a78195f4")
 	)
 	(wire
 		(pts
@@ -2550,6 +2572,16 @@
 	)
 	(wire
 		(pts
+			(xy 251.46 60.96) (xy 256.54 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78e4a510-4f88-4182-903e-7cbc1ac6f30e")
+	)
+	(wire
+		(pts
 			(xy 97.79 100.33) (xy 114.3 100.33)
 		)
 		(stroke
@@ -2637,6 +2669,16 @@
 			(type default)
 		)
 		(uuid "941abcf4-08a0-4943-bddd-98fcc6d5c51d")
+	)
+	(wire
+		(pts
+			(xy 251.46 93.98) (xy 256.54 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94689cd4-1457-4853-8340-0ba1ae04c7f9")
 	)
 	(wire
 		(pts
@@ -2987,6 +3029,16 @@
 			(type default)
 		)
 		(uuid "ef5e29de-e5aa-4230-944c-001c87ae34c4")
+	)
+	(wire
+		(pts
+			(xy 256.54 60.96) (xy 256.54 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1abe11d-45a1-44e8-82e0-92ea7cbf842b")
 	)
 	(wire
 		(pts
@@ -3781,7 +3833,7 @@
 		(uuid "e6808e50-d985-4e26-9341-1c43e610dcb6")
 	)
 	(hierarchical_label "~{SDB}"
-		(shape output)
+		(shape input)
 		(at 34.29 74.93 180)
 		(effects
 			(font
@@ -4750,7 +4802,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 44.45 59.69 0)
 			(effects
 				(font
@@ -4958,7 +5010,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 67.31 153.67 0)
 			(effects
 				(font
@@ -5028,7 +5080,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 44.45 82.55 0)
 			(effects
 				(font
@@ -5790,7 +5842,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 53.34 59.69 0)
 			(effects
 				(font

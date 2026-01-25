@@ -3389,22 +3389,10 @@
 		(uuid "56400bf8-7a71-4f3e-b16c-504586d32ae8")
 	)
 	(junction
-		(at 151.13 99.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5ed78e5e-4bf6-4519-8a55-790261c4277e")
-	)
-	(junction
 		(at 100.33 36.83)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "60f66b64-ab85-4e71-9884-5195918f088f")
-	)
-	(junction
-		(at 175.26 99.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "62aad4a9-82b9-48b0-ab63-35c5c4ff8ecf")
 	)
 	(junction
 		(at 43.18 152.4)
@@ -3441,6 +3429,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b33cae53-0a58-47cf-a0fd-6735ed94774d")
+	)
+	(junction
+		(at 175.26 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b83ee489-fc67-470b-af15-de1599aaa33f")
 	)
 	(junction
 		(at 34.29 76.2)
@@ -3555,16 +3549,6 @@
 			(type default)
 		)
 		(uuid "04759932-a352-4a23-8fab-105ec2ad10d1")
-	)
-	(wire
-		(pts
-			(xy 151.13 99.06) (xy 151.13 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0a89ff35-acd5-4bac-9b86-fc9470831d3c")
 	)
 	(wire
 		(pts
@@ -3688,7 +3672,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 96.52) (xy 151.13 99.06)
+			(xy 151.13 96.52) (xy 151.13 101.6)
 		)
 		(stroke
 			(width 0)
@@ -3725,6 +3709,16 @@
 			(type default)
 		)
 		(uuid "2f8dc881-4d58-4204-91cc-4a2d1e7b75f4")
+	)
+	(wire
+		(pts
+			(xy 147.32 99.06) (xy 175.26 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f9a93a2-53bc-4b56-941d-f74bcd242e0f")
 	)
 	(wire
 		(pts
@@ -4438,16 +4432,6 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 99.06) (xy 147.32 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b3adbf9c-adc8-4973-ba82-0cb5de1d017f")
-	)
-	(wire
-		(pts
 			(xy 121.92 36.83) (xy 121.92 49.53)
 		)
 		(stroke
@@ -4595,16 +4579,6 @@
 			(type default)
 		)
 		(uuid "d0277aba-beb8-4ab8-b4ab-f976ebd51534")
-	)
-	(wire
-		(pts
-			(xy 151.13 99.06) (xy 175.26 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d04b0f89-ccfb-49d9-bca0-bdb35b994779")
 	)
 	(wire
 		(pts
@@ -5100,7 +5074,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 52.07 154.94 0)
 			(effects
 				(font
@@ -5170,7 +5144,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 77.47 92.71 0)
 			(effects
 				(font
@@ -5368,7 +5342,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 162.56 58.42 0)
 			(effects
 				(font
@@ -6094,7 +6068,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 52.07 152.4 0)
 			(effects
 				(font
@@ -6365,7 +6339,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 49.53 82.55 0)
 			(effects
 				(font
@@ -6425,7 +6399,7 @@
 				)
 			)
 		)
-		(property "Value" "Micro_SD_Card_Det_Hirose_DM3AT"
+		(property "Value" "DM3AT-SF-PEJM5"
 			(at 231.775 44.45 0)
 			(effects
 				(font
@@ -6433,7 +6407,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_Card:microSD_HC_Hirose_DM3AT-SF-PEJM5"
 			(at 283.21 45.72 0)
 			(effects
 				(font
@@ -6442,7 +6416,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.hirose.com/product/en/download_file/key_name/DM3/category/Catalog/doc_file_id/49662/?file_category_id=4&item_id=195&is_series=1"
+		(property "Datasheet" "https://www.hirose.com/product/document?clcode=CL0609-0033-6-00&productname=DM3AT-SF-PEJ2M5&series=DM3&documenttype=Catalog&lang=en&documentid=D49662_en"
 			(at 231.14 60.96 0)
 			(effects
 				(font
@@ -6738,7 +6712,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
 			(at 175.26 93.98 0)
 			(effects
 				(font
